@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" preserveAspectRatio="xMidYMid slice">
+
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1D37"/>
+      <stop offset="50%" stop-color="#062E6F"/>
+      <stop offset="100%" stop-color="#02101E"/>
+    </linearGradient>
+
+    <!-- Neon Accent -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#008CFF"/>
+    </linearGradient>
+    
+    <!-- Glow Filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="360" fill="url(#bg)"/>
+
+  <!-- Decorative angled neon shapes -->
+  <polygon points="1200,0 1600,0 1600,360 1400,360" fill="#00E5FF" opacity="0.04"/>
+  <polygon points="0,0 350,0 150,360 0,360" fill="#00E5FF" opacity="0.03"/>
+
+  <!-- TEXT LEFT AREA -->
+  <g transform="translate(80,90)">
+
+    <!-- Name -->
+    <text x="0" y="0"
+          fill="white"
+          font-size="54"
+          font-family="Inter, Arial, sans-serif"
+          font-weight="800">
+      SkySentinel-AI
+    </text>
+
+    <!-- Tagline -->
+    <text x="0" y="55"
+          fill="#8EEAFF"
+          font-size="26"
+          font-family="Inter, Arial, sans-serif"
+          font-weight="500">
+      DevSecOps • Cloud Security • AI-driven Automation
+    </text>
+
+    <!-- Highlight line -->
+    <rect x="0" y="85" width="520" height="6" rx="3" fill="url(#accent)" filter="url(#glow)"/>
+  </g>
+
+  <!-- TECH LOGO RIGHT -->
+  <g transform="translate(1120,40)" filter="url(#glow)">
+    <circle cx="170" cy="140" r="110" fill="none" stroke="url(#accent)" stroke-width="6" opacity="0.9"/>
+    <path d="M170 70 L210 140 L170 210 L130 140 Z"
+          fill="none" stroke="#00E5FF" stroke-width="4"/>
+  </g>
+
+</svg>
