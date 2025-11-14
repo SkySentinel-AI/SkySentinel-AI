@@ -1,0 +1,124 @@
+<!-- docs/interactive-3d.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interactive 3D Chart — SkySentinel-AI</title>
+
+  <style>
+    :root{
+      --bg:#0b1220; --card:#07101a; --text:#e6f8ff; --muted:#9fbccf;
+    }
+    [data-theme="light"]{
+      --bg:#f5f7fb; --card:#ffffff; --text:#0b1220; --muted:#445566;
+    }
+
+    html,body{height:100%;margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,Arial;}
+    .container{max-width:1100px;margin:28px auto;padding:24px;}
+    .card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 8px 30px rgba(2,6,23,0.6);}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px}
+    .controls{display:flex;gap:8px;align-items:center}
+    button{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text);padding:8px 12px;border-radius:8px;cursor:pointer}
+    img.fallback{display:block;max-width:100%;border-radius:8px;margin-top:12px;box-shadow:0 6px 18px rgba(0,0,0,0.5)}
+    /* Responsive */
+    @media(max-width:720px){ .container{padding:12px} }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1 style="margin:0 0 6px 0">3D Interactive — Fail2Ban Metrics</h1>
+        <div style="color:var(--muted);font-size:13px">Rotate, zoom & hover. Built with Plotly WebGL.</div>
+      </div>
+
+      <div class="controls">
+        <label for="themeToggle" style="font-size:13px;color:var(--muted)">Theme</label>
+        <button id="themeToggle">Toggle</button>
+      </div>
+    </header>
+
+    <div class="card">
+      <!-- plot container -->
+      <div id="plot" style="width:100%;height:520px;"></div>
+
+      <!-- fallback static image for non-js or for screenshots -->
+      <img class="fallback" id="fallbackImg" src="assets/ARCHITECTURE.png" alt="Static fallback" style="display:none" />
+    </div>
+  </div>
+
+  <script>
+    // --- Theme handling: respect user preference and allow toggle ---
+    (function(){
+      const root = document.documentElement;
+      const userPref = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      // prefer saved setting in localStorage
+      const saved = localStorage.getItem('site-theme');
+      const theme = saved || userPref;
+      document.documentElement.setAttribute('data-theme', theme);
+
+      const btn = document.getElementById('themeToggle');
+      btn.addEventListener('click', () => {
+        const current = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+        const next = current === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('site-theme', next);
+      });
+    })();
+
+    // --- Lazy-load Plotly (only if JS enabled) ---
+    function loadScript(src){ return new Promise((res,rej)=> {
+      const s=document.createElement('script'); s.src=src; s.async=true;
+      s.onload=res; s.onerror=rej; document.head.appendChild(s);
+    })}
+
+    // small sample dataset generator (replace with real data/endpoint)
+    function sampleData(n=400){
+      const x=[], y=[], z=[], sizes=[];
+      for(let i=0;i<n;i++){
+        const t = i/10;
+        x.push(Math.sin(t)* (Math.random()*8 + 10));
+        y.push(Math.cos(t)* (Math.random()*8 + 10));
+        z.push(Math.sin(t*0.7)*(Math.random()*6 + 6));
+        sizes.push(6 + Math.random()*10);
+      }
+      return {x,y,z,sizes};
+    }
+
+    (async function initPlot(){
+      try {
+        // Plotly CDN (use plotly-gl2d or plotly-latest.min for 3D; this includes WebGL)
+        await loadScript('https://cdn.plot.ly/plotly-2.24.1.min.js');
+
+        const d = sampleData(700);
+        const trace = {
+          x: d.x, y: d.y, z: d.z,
+          mode: 'markers',
+          marker: { size: d.sizes, color: d.z, colorscale: 'Viridis', opacity: 0.9 },
+          type: 'scatter3d',
+          hovertemplate: 'x: %{x:.2f}<br>y: %{y:.2f}<br>z: %{z:.2f}<extra></extra>'
+        };
+
+        const layout = {
+          paper_bgcolor: 'transparent',
+          plot_bgcolor: 'transparent',
+          margin: {l:0,r:0,b:0,t:0},
+          scene: {
+            xaxis: { title: 'Metric X', gridcolor:'#1b3240', zerolinecolor:'#123' },
+            yaxis: { title: 'Metric Y', gridcolor:'#1b3240' },
+            zaxis: { title: 'Metric Z', gridcolor:'#1b3240' }
+          }
+        };
+
+        Plotly.newPlot('plot', [trace], layout, {responsive:true, displayModeBar:true});
+      } catch(e) {
+        console.error('Plotly failed to load', e);
+        // show fallback image
+        document.getElementById('plot').style.display='none';
+        const f = document.getElementById('fallbackImg'); f.style.display='block';
+      }
+    })();
+  </script>
+</body>
+</html>
