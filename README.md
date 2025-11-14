@@ -1,238 +1,113 @@
-<!-- README.md — SkySentinel-AI — Full Cyber Theme (paste entire file) -->
-
 <p align="center">
   <img src="docs/images/banner.svg" alt="SkySentinel-AI banner" width="100%"/>
 </p>
 
-<!--
-  Note: GitHub may sanitize some <style> blocks in profile READMEs.
-  For full effect view this file via GitHub Pages or the repository page.
--->
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-labelledby="title desc">
+  <title id="title">SkySentinel-AI banner</title>
+  <desc id="desc">Dark neon cyber banner: SkySentinel-AI, DevSecOps • Cloud Security • AI-driven Automation</desc>
 
-<!-- Theme styles (works best on GitHub Pages / raw HTML view) -->
-<style>
-  :root{
-    --cyber-bg: linear-gradient(90deg,#021124,#00172b 35%,#05283b 100%);
-    --neon: #00f0ff;
-    --accent: #2ee6c6;
-    --muted: #8a9aa6;
-    --card: rgba(255,255,255,0.03);
-    --glass: rgba(255,255,255,0.03);
-    --sep: linear-gradient(90deg,#05283b,#00293c);
-  }
+  <!-- Background gradients -->
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#021026"/>
+      <stop offset="0.35" stop-color="#002338"/>
+      <stop offset="1" stop-color="#001026"/>
+    </linearGradient>
 
-  /* Container */
-  .cyber-wrap { max-width: 980px; margin: 18px auto; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color: #111; }
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0.25"/>
+      <stop offset="0.45" stop-color="#2ee6c6" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#003bff" stop-opacity="0.08"/>
+    </linearGradient>
 
-  /* Floating 3D Card behind name */
-  .floating-card {
-    position: relative;
-    display: block;
-    margin: 18px auto 28px;
-    width: calc(100% - 120px);
-    max-width: 880px;
-    padding: 28px 36px;
-    border-radius: 12px;
-    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-    box-shadow: 0 6px 24px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.02);
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    overflow: visible;
-  }
-  .floating-card::before{
-    content:"";
-    position:absolute;
-    left:-18px; top:-18px;
-    width:120%; height:120%;
-    background: radial-gradient(circle at 10% 10%, rgba(0,255,255,0.04), transparent 10%),
-                radial-gradient(circle at 90% 90%, rgba(0,120,255,0.03), transparent 12%);
-    transform: rotateX(12deg) rotateY(-6deg) translateZ(-40px);
-    border-radius:14px;
-    z-index:-1;
-    filter: blur(14px);
-  }
+    <radialGradient id="rightOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#00eaff" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#00a6ff" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#001826" stop-opacity="0"/>
+    </radialGradient>
 
-  .name-row { display:flex; align-items:center; gap:20px; justify-content:center; flex-wrap:wrap; }
-  .name-title { font-size:28px; font-weight:700; letter-spacing: -0.6px; margin:0; }
-  .name-sub { font-size:14px; color:var(--muted); margin-top:4px; font-weight:600 }
+    <!-- subtle grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#002b3a" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
 
-  /* Neon separators */
-  .neon-sep { height:4px; border-radius:4px; margin:28px 0; background: linear-gradient(90deg,#00eaff,#2ee6c6,#0047ff); box-shadow:0 6px 24px rgba(2,20,40,0.25) inset; }
+    <!-- neon glow filter -->
+    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-  /* Typing intro (AI-like) */
-  .typing {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
-    color:#00eaff;
-    margin: 6px 0 14px;
-    font-weight:600;
-  }
-  .typebox{
-    display:inline-block;
-    border-right: 2px solid rgba(0,230,255,0.9);
-    padding-right:6px;
-    animation: blink 1s steps(2,end) infinite;
-  }
-  @keyframes blink { 50% { border-color: transparent; } }
+    <!-- thin stripe accent -->
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#00f0ff"/>
+      <stop offset="0.6" stop-color="#2ee6c6"/>
+      <stop offset="1" stop-color="#0066ff"/>
+    </linearGradient>
+  </defs>
 
-  /* 3D spinning cube (SVG embed area) */
-  .cube-wrap{ display:flex; justify-content:center; margin:16px 0; }
-  .cube { width:120px; height:120px; transform-style:preserve-3d; animation:cubeSpin 7s linear infinite; }
-  @keyframes cubeSpin { from { transform: rotateX(-18deg) rotateY(0deg);} to { transform: rotateX(-18deg) rotateY(360deg);} }
+  <!-- base -->
+  <rect width="1600" height="360" fill="url(#bg)"/>
 
-  /* Dark mode */
-  @media (prefers-color-scheme: dark) {
-    :root { color-scheme: dark; }
-    body, .cyber-wrap { background: #01040a; color: #d7eaf0; }
-    .floating-card { background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.05)); box-shadow: 0 12px 36px rgba(0,0,0,0.6); }
-    .typing { color: #7fffd4; }
-  }
+  <!-- subtle pattern overlay -->
+  <rect width="1600" height="360" fill="url(#grid)" opacity="0.40"/>
 
-  /* Responsive */
-  @media (max-width:720px) {
-    .floating-card { padding:22px; width:calc(100% - 36px); }
-    .name-title { font-size:22px; }
-  }
+  <!-- left faint cyber rays -->
+  <g transform="translate(60,40)">
+    <ellipse cx="180" cy="120" rx="420" ry="140" fill="url(#glow)" opacity="0.08"/>
+    <ellipse cx="140" cy="120" rx="320" ry="100" fill="url(#glow)" opacity="0.06"/>
+  </g>
 
-  /* Buttons/pill */
-  .pill { display:inline-block; padding:6px 10px; border-radius:999px; background: rgba(0,240,255,0.08); color:var(--neon); font-weight:700; font-size:13px; border: 1px solid rgba(0,240,255,0.06); }
-</style>
+  <!-- accent underline -->
+  <rect x="120" y="160" width="720" height="6" rx="3" fill="url(#accent)" filter="url(#neon)" opacity="0.95"/>
 
-<div class="cyber-wrap">
+  <!-- Title group -->
+  <g transform="translate(120,82)" fill="#e6f9ff" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial" >
+    <text x="0" y="48" font-size="44" font-weight="700" letter-spacing="-0.6">SkySentinel-AI</text>
+    <text x="0" y="88" font-size="16" fill="#9fcbd6" font-weight="600">DevSecOps • Cloud Security • AI-driven Automation</text>
+  </g>
 
-<!-- Floating card behind name -->
-<div class="floating-card" aria-hidden="false">
-  <div class="name-row">
-    <div style="text-align:center;">
-      <h1 class="name-title">🚀 SkySentinel-AI</h1>
-      <div class="name-sub">DevSecOps Engineer · Cloud Security · AI-Driven Automation · SRE mindset</div>
-    </div>
+  <!-- thin divider (neon) -->
+  <g transform="translate(120,132)">
+    <rect x="0" y="0" width="760" height="1" fill="#0b2f3a" opacity="0.5"/>
+  </g>
 
-    <!-- 3D cube (SVG) -->
-    <div class="cube-wrap" aria-hidden="true" style="width:160px;">
-      <!-- Spinning cube rendered as SVG faces (works in GitHub Pages/raw view) -->
-      <svg class="cube" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="3D cube">
-        <defs>
-          <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#00243b"/><stop offset="1" stop-color="#003b5c"/></linearGradient>
-          <linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#00eaff"/><stop offset="1" stop-color="#2ee6c6"/></linearGradient>
-          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-        </defs>
+  <!-- right orb / emblem -->
+  <g transform="translate(1200,60)">
+    <circle cx="120" cy="120" r="82" fill="url(#rightOrb)" opacity="0.95"/>
+    <!-- inner shape (diamond) -->
+    <g transform="translate(120,120) rotate(45)">
+      <rect x="-22" y="-44" width="44" height="88" rx="6" ry="6" fill="#002b3a" opacity="0.15"/>
+      <path d="M0 -34 L20 0 L0 34 L -20 0 Z" fill="none" stroke="#67f3ff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" filter="url(#neon)"/>
+      <path d="M0 -22 L12 0 L0 22 L -12 0 Z" fill="none" stroke="#00b3ff" stroke-width="2" opacity="0.9"/>
+    </g>
+    <!-- subtle ring -->
+    <circle cx="120" cy="120" r="100" fill="none" stroke="#003b5c" stroke-opacity="0.18" stroke-width="6"/>
+  </g>
 
-        <!-- cube faces -->
-        <g transform="translate(50,50)">
-          <rect x="-26" y="-26" width="48" height="48" fill="url(#g1)" opacity="0.95" rx="6" ry="6" filter="url(#glow)" />
-          <rect x="-6" y="-6" width="12" height="12" fill="url(#g2)" rx="2"/>
-          <text x="0" y="36" font-family="Inter, Arial" font-size="8" text-anchor="middle" fill="#a6f8ff">SS</text>
-        </g>
-      </svg>
-    </div>
-  </div>
+  <!-- faint top-left corner label -->
+  <g transform="translate(40,20)">
+    <rect x="0" y="0" width="120" height="28" rx="6" fill="#001a24" opacity="0.28"/>
+    <text x="12" y="19" font-size="12" fill="#8adbe6" font-weight="700">DevSecOps</text>
+  </g>
 
-  <!-- AI-like typing intro (graceful fallback: static text) -->
-  <p style="text-align:center; margin-top:14px; line-height:1.45;">
-    <span class="typing"> <span class="typebox">I build secure, scalable, automated cloud ecosystems…</span> </span>
-    <br/><span style="color:var(--muted);">Focused on AWS Security, AI-enabled detection, DevSecOps pipelines, and self-healing infra.</span>
-  </p>
-</div>
+  <!-- optional small accent icon near text (stack of docs) -->
+  <g transform="translate(100,200)" opacity="0.98" fill="#94f7ff">
+    <rect x="0" y="0" width="44" height="30" rx="3" fill="#001a24" opacity="0.06"/>
+    <path d="M6 6h28v2H6zM6 12h28v2H6zM6 18h18v2H6z" fill="#69f0ff" opacity="0.85"/>
+  </g>
 
-<!-- Neon separator -->
-<div class="neon-sep" role="presentation"></div>
+  <!-- bottom cyber frame line -->
+  <rect x="90" y="310" width="1420" height="6" rx="3" fill="url(#accent)" opacity="0.18"/>
 
-<!-- About / Core Expertise -->
-<h2>🧠 About / Core Expertise</h2>
-<ul>
-  <li><strong>Detect → Respond → Auto-remediate:</strong> autonomous security workflows and runbooks</li>
-  <li><strong>Cloud & DevSecOps:</strong> AWS (EC2, Lambda, CloudWatch, SNS, IAM), Terraform, GitHub Actions</li>
-  <li><strong>Automation:</strong> Python, Bash, CI/CD pipelines, containerization</li>
-  <li><strong>Observability:</strong> dashboards, metrics, and anomaly detection</li>
-</ul>
+  <!-- accessibility: fallback text for non-SVG renders (screen readers ignore visually) -->
+  <foreignObject x="0" y="0" width="1" height="1" style="overflow:visible">
+    <p xmlns="http://www.w3.org/1999/xhtml" style="font-size:1px;opacity:0">SkySentinel-AI — DevSecOps • Cloud Security • AI-driven Automation</p>
+  </foreignObject>
 
-<!-- Featured Project -->
-<h2>🔥 Featured Project — Fail2Ban AWS</h2>
-<p><em>Automated Cloud Security System: Detect → Block → Alert</em></p>
-<ul>
-  <li>Real-time intrusion detection & auto IP banning</li>
-  <li>Lambda-based remediation & CloudWatch alerts</li>
-  <li>24/7 hands-free cloud protection</li>
-</ul>
-<p>
-  🔗 <strong>Live Project:</strong> <a href="https://skysentinel-ai.github.io/fail2ban-aws-project">fail2ban-aws-project</a><br/>
-  🔗 <strong>Repo:</strong> <a href="https://github.com/SkySentinel-AI/fail2ban-aws-project">github.com/SkySentinel-AI/fail2ban-aws-project</a>
-</p>
-
-<!-- Tech stack table -->
-<h2>🧩 Tech Stack</h2>
-<table>
-  <tr><td><strong>Cloud</strong></td><td>AWS (EC2, Lambda, CloudWatch, SNS, IAM)</td></tr>
-  <tr><td><strong>DevOps</strong></td><td>GitHub Actions, Docker, CI/CD</td></tr>
-  <tr><td><strong>Security</strong></td><td>Fail2Ban, CloudWatch Alerts, IAM automation</td></tr>
-  <tr><td><strong>Languages</strong></td><td>Python, Bash</td></tr>
-  <tr><td><strong>IaC</strong></td><td>Terraform</td></tr>
-</table>
-
-<!-- GitHub Analytics / Widgets -->
-<div style="text-align:center; margin:22px 0;">
-  <h2>📊 GitHub Analytics (Premium UI)</h2>
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight&hide_border=true" width="60%" alt="GitHub stats"/>
-  </p>
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight&hide_border=true" width="40%" alt="Top languages"/>
-  </p>
-</div>
-
-<!-- Cyber-Blue Contribution Snake -->
-<h2>🐍 Cyber-Blue Contribution Snake</h2>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/SkySentinel-AI/SkySentinel-AI/output/github-contribution-grid-snake.svg" alt="Contribution snake" style="max-width:100%; border-radius:8px; box-shadow: 0 8px 36px rgba(2,30,40,0.25);" />
-</p>
-<p style="color:var(--muted)"><em>If the snake image is blank: allow GitHub Actions to push the `output` or `gh-pages` branch so the generated SVG is available.</em></p>
-
-<!-- Activity Graph -->
-<h2>📈 Activity Graph</h2>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SkySentinel-AI&theme=react-dark&hide_border=true&area=true" width="70%" alt="activity graph"/>
-</p>
-
-<!-- 3D Interactive Visualization link -->
-<h2>🎛️ Interactive 3D Dashboard (Live)</h2>
-<p>
-  Experience the 3D Fail2Ban Security Visualization (attacks, blocks, alerts in 3D):<br/>
-  <a href="https://skysentinel-ai.github.io/SkySentinel-AI/interactive-3d.html" class="pill">Open 3D Visualization</a>
-</p>
-<p style="color:var(--muted)">Note: 3D / interactive charts require GitHub Pages or a static host to run JavaScript-based viewers (three.js / Plotly). The README contains a link to the live page where full interactivity runs.</p>
-
-<!-- Dark-mode-first banner suggestion -->
-<div style="margin:18px 0; padding:14px; border-radius:10px; background: linear-gradient(90deg,#00172b,#002b40); color:white; text-align:center;">
-  <strong>Dark-mode recommendation:</strong> I recommend using a dark-first banner &assets for the GitHub Pages site (users with dark preference get the full neon cyber look).
-</div>
-
-<!-- Contact -->
-<h2>🌐 Connect</h2>
-<p>
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rishikesh_Jogdand-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jrishikesh-j-306ba635b)<br/>
-  📍 Pune, India — 📧 <a href="mailto:jogdandrishikesh05@gmail.com">jogdandrishikesh05@gmail.com</a>
-</p>
-
-<!-- Currently building & motto -->
-<h2>⚡ Currently Building</h2>
-<ul>
-  <li>Multi-cloud security automation (AWS + Azure + GCP + IBM)</li>
-  <li>AI-driven threat detection & autonomous remediation</li>
-  <li>Real-time cloud monitoring dashboards and self-healing playbooks</li>
-</ul>
-
-<h2>🛡️ Motto</h2>
-<div style="text-align:center; margin:18px 0; font-weight:700; font-size:18px;">“Secure everything. Automate anything.”</div>
-
-<!-- Footer notes -->
-<hr/>
-<p style="color:var(--muted); font-size:13px;">
-  <strong>Implementation notes:</strong>
-  <ul>
-    <li>GitHub profile READMEs may strip some `<style>` contents — for full animations visit the <em>GitHub Pages</em> live site.</li>
-    <li>3D & interactive charts (three.js / Plotly) are included on the project Pages site at <code>/interactive-3d.html</code>. That file can host advanced JS visualizations not permitted in README.</li>
-    <li>If any images appear blank, make sure the Action that generates them has permission to push to your chosen branch (e.g. `output` or `gh-pages`).</li>
-  </ul>
-</p>
-
+</svg>
 </div>
