@@ -111,26 +111,3 @@ https://skysentinel-ai.github.io/SkySentinel-AI/interactive-3d.html
 ## 🛡️ Motto
 **“Secure everything. Automate anything.”**
 
----
-
-## ✅ Implementation checklist (quick)
-1. **README location** — ensure this `README.md` is in the repo root (the profile README must be `USER/USER` special repo or the repo you want to show).  
-2. **Actions permissions** — in *Settings → Actions → General*, set “Allow all actions” or allow the specific actions your workflow uses.  
-3. **Output branch** — if an Action generates images (snake / charts), configure it to push to `output` or `gh-pages`, and give the token permission. In your workflow use `permissions: contents: write`.  
-4. **GitHub Pages** — enable Pages for the branch/folder you serve (`gh-pages` or `main / docs`), then wait a couple minutes for the site to deploy. Use the Pages URL for interactive 3D.  
-5. **If images are blank** — confirm the generated image URL (raw.githubusercontent.com/…/output/…) returns HTTP 200. If not, the Action lacks push permission or the file is in a different branch.  
-6. **If About text missing** — do **not** wrap your prose inside custom `<style>` blocks or complex HTML that GitHub strips. Keep plain Markdown for reliable display (this file does).
-
----
-
-### Final note
-- This README is Markdown-first so GitHub profile preview will show everything reliably.  
-- For the full neon/cyber visual experience (animated banner, 3D canvas, floating cards), use **GitHub Pages** and link to it (the 3D/JS code belongs on `interactive-3d.html` or `docs/` where browsers execute JS).
-
----
-
-If you want I’ll:
-- produce the `interactive-3d.html` (three.js skeleton + example dataset) ready to paste into `docs/`, **or**
-- create the Actions YAML snippet that generates `github-contribution-grid-snake.svg` and pushes to `output`/`gh-pages`.
-
-Which one should I add next? (I’ll include both if you want — no waiting, I’ll paste them here now.)
