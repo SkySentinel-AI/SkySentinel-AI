@@ -1,183 +1,136 @@
-<!-- README.md — SkySentinel-AI — Dark Cloud Security Theme (paste entire file) -->
+<p align="center">
+  <img src="docs/images/banner.svg" width="100%" alt="SkySentinel-AI banner"/>
+</p>
+
+<div align="center">
+
+# 🚀 SkySentinel-AI  
+### *DevSecOps Engineer • Cloud Security • AI-Driven Automation*
+
+</div>
 
 <p align="center">
-  <img src="docs/images/banner.svg" alt="SkySentinel-AI banner" width="100%"/>
+I design **secure, scalable, automated cloud ecosystems** that detect threats, respond automatically, and remediate without human intervention.  
+Primary focus: **AWS Security**, **DevSecOps**, **AI-assisted detection**, and **self-healing infrastructure**.
 </p>
 
-<!--
-  Dark-first README: some <style> blocks may be sanitized in GitHub profile README.
-  For full effect, view via GitHub Pages (https://<username>.github.io/<repo>/interactive-3d.html)
--->
+---
 
-<style>
-:root{
-  --bg-dark: #05070a;
-  --panel: rgba(255,255,255,0.02);
-  --neon-cyan: #00eaff;
-  --neon-teal: #2ee6c6;
-  --muted: #94a6b0;
-  --accent: linear-gradient(90deg,#00172b,#002b40);
-  --glass: rgba(255,255,255,0.02);
-}
-body, .dark-wrap { background: var(--bg-dark); color: #d6eef5; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
-.dark-wrap { max-width: 980px; margin: 18px auto; padding: 18px; }
-.profile-card {
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-  border-radius: 12px; padding: 26px; box-shadow: 0 10px 40px rgba(0,0,0,0.6);
-  position: relative; overflow: visible;
-}
-.title { font-size: 34px; font-weight:800; letter-spacing:-0.6px; margin:0; color:#ffffff; display:inline-block; }
-.subtitle { color:var(--muted); margin-top:6px; font-weight:600; }
-.neon-line { height:4px; border-radius:4px; margin:18px 0; background: linear-gradient(90deg,var(--neon-cyan),var(--neon-teal),#0047ff); box-shadow:0 8px 36px rgba(0,0,0,0.45) inset; }
-.cube { width:110px; height:110px; transform-style:preserve-3d; animation: spin 7s linear infinite; margin-left:18px; }
-@keyframes spin { from { transform: rotateX(-18deg) rotateY(0deg);} to { transform: rotateX(-18deg) rotateY(360deg);} }
-.typebox{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace; color:var(--neon-cyan); border-right:2px solid rgba(0,230,255,0.9); padding-right:8px; animation: blink 1s steps(2,end) infinite; font-weight:600; }
-@keyframes blink { 50% { border-color: transparent; } }
-.panel { margin-top:8px; background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00)); padding:14px; border-radius:8px; border: 1px solid rgba(255,255,255,0.02); }
-.small { color:var(--muted); font-size:14px; }
-.pill { display:inline-block; padding:6px 10px; border-radius:999px; background: rgba(0,240,255,0.04); color:var(--neon-cyan); font-weight:700; font-size:13px; border: 1px solid rgba(0,240,255,0.05); }
-.footer-note { color: #a3c7d1; font-size:13px; margin-top:10px; }
-/* responsive */
-@media (max-width:720px){ .title { font-size:24px; } .cube { display:none; } }
-</style>
+## 🧠 About Me
+- I build cloud systems that **detect → respond → auto-remediate** security incidents.  
+- Strong in **AWS, DevSecOps, Cloud Security, Terraform, Python/Bash automation**.  
+- Obsessed with **observability, resilience, and zero-trust** architecture.  
+- Currently building **multi-cloud automated defense systems** (AWS, Azure, GCP, IBM).
 
-<div class="dark-wrap">
+---
 
-<div class="profile-card" role="banner">
-  <div style="display:flex; align-items:center; gap:18px; flex-wrap:wrap; justify-content:center;">
-    <div style="text-align:left;">
-      <h1 class="title">🚀 SkySentinel-AI</h1>
-      <div class="subtitle">DevSecOps Engineer • Cloud Security • AI-Driven Automation • SRE Mindset</div>
-    </div>
+## 🛡️ Core Expertise
+- DevSecOps & Cloud Security  
+- AWS Automation (EC2, Lambda, CloudWatch, SNS, IAM)  
+- Infrastructure as Code — **Terraform**  
+- CI/CD Pipelines (GitHub Actions | Jenkins)  
+- Python & Shell Automation  
+- AI-driven incident detection & response
 
-    <!-- 3D spinning cube (SVG fallback) -->
-    <div aria-hidden="true">
-      <svg class="cube" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="3D cube">
-        <defs>
-          <linearGradient id="cg1" x1="0" x2="1"><stop offset="0" stop-color="#00172b"/><stop offset="1" stop-color="#003b5c"/></linearGradient>
-          <linearGradient id="cg2" x1="0" x2="1"><stop offset="0" stop-color="#00eaff"/><stop offset="1" stop-color="#2ee6c6"/></linearGradient>
-          <filter id="glo" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-        </defs>
-        <g transform="translate(50,50)">
-          <rect x="-28" y="-28" width="56" height="56" rx="8" fill="url(#cg1)" opacity="0.96" filter="url(#glo)"/>
-          <rect x="-10" y="-10" width="20" height="20" rx="3" fill="url(#cg2)"/>
-          <text x="0" y="36" font-family="Inter, Arial" font-size="8" text-anchor="middle" fill="#a6f8ff">SS</text>
-        </g>
-      </svg>
-    </div>
-  </div>
+---
 
-  <p style="text-align:center; margin-top:14px;">
-    <span class="typebox">I build secure, automated cloud systems that detect → respond → auto-remediate…</span><br/>
-    <span class="small">Focused on AWS Security, DevSecOps pipelines, AI-driven detection, and self-healing infra.</span>
-  </p>
-</div>
+## 🔥 Featured Project — Fail2Ban AWS
+**Automated Cloud Security System — Detect → Block → Alert**
 
-<div class="neon-line" role="presentation"></div>
+- Real-time intrusion detection  
+- Lambda-based automated IP banning & remediation  
+- CloudWatch → SNS alerts and dashboards  
+- Fully automated cloud protection (hands-free)
 
-<!-- About -->
-<div class="panel">
-<h2 id="about">🧠 About / Core Expertise</h2>
-<ul>
-  <li><strong>Detect → Respond → Auto-remediate</strong> — autonomous security workflows & runbooks</li>
-  <li><strong>Cloud & Security</strong> — AWS (Lambda, EC2, CloudWatch, SNS, IAM), fail2ban automation</li>
-  <li><strong>Infra & CI</strong> — Terraform, GitHub Actions, Docker, CI/CD</li>
-  <li><strong>Automation</strong> — Python, Bash, serverless remediation</li>
-  <li><strong>Observability</strong> — dashboards, metrics, anomaly detection (Prometheus/CloudWatch)</li>
-</ul>
-</div>
+**Live project:** https://skysentinel-ai.github.io/fail2ban-aws-project  
+**Repo:** https://github.com/SkySentinel-AI/fail2ban-aws-project
 
-<!-- Featured project -->
-<div class="panel" style="margin-top:14px;">
-<h2>🔥 Featured Project — Fail2Ban AWS</h2>
-<p><em>Automated Cloud Security System: Detect → Block → Alert</em></p>
-<ul>
-  <li>Real-time intrusion detection & automatic IP banning</li>
-  <li>Lambda-based remediation + CloudWatch → SNS alert pipeline</li>
-  <li>Fully automated, hands-free cloud defense (24/7)</li>
-</ul>
-<p class="small">
-🔗 <strong>Live:</strong> <a href="https://skysentinel-ai.github.io/fail2ban-aws-project">skysentinel-ai.github.io/fail2ban-aws-project</a><br/>
-🔗 <strong>Repo:</strong> <a href="https://github.com/SkySentinel-AI/fail2ban-aws-project">github.com/SkySentinel-AI/fail2ban-aws-project</a>
-</p>
-</div>
+---
 
-<!-- Tech stack -->
-<div class="panel" style="margin-top:14px;">
-<h2>🧩 Tech Stack</h2>
-<table>
-  <tr><td><strong>Cloud</strong></td><td>AWS (Lambda, EC2, CloudWatch, SNS, IAM)</td></tr>
-  <tr><td><strong>Automation</strong></td><td>Python, Bash, Serverless</td></tr>
-  <tr><td><strong>Infra</strong></td><td>Terraform, IaC, VCS</td></tr>
-  <tr><td><strong>CI / Security</strong></td><td>GitHub Actions, Fail2Ban, CloudWatch Alerts</td></tr>
-</table>
-</div>
+## 🧩 Tech Stack
+| Category | Tools |
+|---|---|
+| **Cloud** | AWS (EC2, Lambda, CloudWatch, SNS, IAM) |
+| **DevOps** | GitHub Actions, Docker, CI/CD |
+| **Security** | Fail2Ban, CloudWatch alerts, IAM automation |
+| **Languages** | Python, Bash |
+| **IaC** | Terraform |
 
-<!-- Analytics -->
-<div style="text-align:center; margin:20px 0;">
-<h2>📊 GitHub Analytics (Dark UI)</h2>
+---
+
+## 📊 GitHub Analytics (Premium UI)
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=dark&hide_border=true" width="62%" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight&hide_border=true" width="60%" alt="GitHub stats"/>
 </p>
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=dark&hide_border=true" width="42%" alt="Top languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight&hide_border=true" width="40%" alt="Top languages"/>
 </p>
-</div>
 
-<!-- Contribution snake + activity graph -->
-<div class="panel" style="margin-top:10px;">
-<h2>🐍 Cyber-Blue Contribution Snake</h2>
+---
+
+## 🐍 Cyber-Blue Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SkySentinel-AI/SkySentinel-AI/output/github-contribution-grid-snake.svg" alt="contribution snake" style="max-width:100%; border-radius:8px; box-shadow:0 8px 36px rgba(0,0,0,0.45)"/>
+  <img src="https://raw.githubusercontent.com/SkySentinel-AI/SkySentinel-AI/output/github-contribution-grid-snake.svg" alt="contribution snake" style="max-width:100%; border-radius:8px;" />
 </p>
-<p class="small" style="text-align:center;">If blank: allow the Action that generates the snake to push to `output` or `gh-pages` branch.</p>
 
-<h2>📈 Activity Graph</h2>
+> If the snake is blank: make sure the Action that generates it has permission to push to the `output` (or `gh-pages`) branch — see the Implementation Checklist below.
+
+---
+
+## 📈 Activity Graph
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SkySentinel-AI&theme=react-dark&hide_border=true&area=true" width="72%" alt="activity graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SkySentinel-AI&theme=react-dark&hide_border=true&area=true" width="70%" alt="activity graph"/>
 </p>
-</div>
 
-<!-- Interactive 3D -->
-<div class="panel" style="margin-top:14px;">
-<h2>🎛️ Interactive 3D Dashboard (Live)</h2>
-<p>Experience the 3D Fail2Ban Security Visualization (attacks, blocks, alerts mapped in interactive 3D):</p>
-<p style="text-align:center;">
-  <a class="pill" href="https://skysentinel-ai.github.io/SkySentinel-AI/interactive-3d.html">Open 3D Visualization (Pages)</a>
-</p>
-<p class="small">Note: interactive 3D uses three.js / Plotly and must run on GitHub Pages (static host) — README itself cannot run advanced JS inside the GitHub profile preview.</p>
-</div>
+---
 
-<!-- Connect -->
-<div class="panel" style="margin-top:14px;">
-<h2>🌐 Connect</h2>
-<p>
-  <a href="https://linkedin.com/in/jrishikesh-j-306ba635b"><img src="https://img.shields.io/badge/LinkedIn-Rishikesh_Jogdand-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a><br/>
-  📍 Pune, India — 📧 <a href="mailto:jogdandrishikesh05@gmail.com">jogdandrishikesh05@gmail.com</a>
-</p>
-</div>
+## 🎛️ Interactive 3D Dashboard (Live)
+Experience a 3D visualization of attacks, blocks, and alerts mapped in interactive 3D (three.js / Plotly) — **runs on GitHub Pages**:
 
-<!-- Currently building / motto -->
-<div class="panel" style="margin-top:14px;">
-<h2>⚡ Currently Building</h2>
-<ul>
-  <li>Multi-cloud security automation (AWS + Azure + GCP + IBM)</li>
-  <li>AI-powered threat detection & autonomous remediation</li>
-  <li>Real-time cloud monitoring dashboards & self-healing playbooks</li>
-</ul>
+**Open 3D Visualization (Pages)** →  
+https://skysentinel-ai.github.io/SkySentinel-AI/interactive-3d.html
 
-<h2>🛡️ Motto</h2>
-<div style="text-align:center; font-weight:700; font-size:18px; margin-top:8px;">“Secure everything. Automate anything.”</div>
-</div>
+> Note: interactive 3D uses JavaScript and must be hosted on **GitHub Pages** (or another static host). The README itself cannot execute complex JS inside the profile preview.
 
-<!-- Implementation notes -->
-<div class="footer-note">
-<hr/>
-**Implementation notes & quick checklist (read before committing)**:
-- GitHub profile READMEs may strip some `<style>`/JS. The dark theme & cube SVG remain useful in **raw / Pages** view. For full animation use **GitHub Pages**.
-- To show generated images (contribution snake / charts) ensure your GitHub Actions workflow has **write permission** and can push to `output` or `gh-pages`. (Check *Settings → Actions → Workflow permissions* — set "Read and write permissions" and allow actions to create & approve PRs if needed).
-- 3D interactive page is served from `interactive-3d.html` under GitHub Pages (push to `gh-pages` or configure Pages from `main`/`docs`).
-- If an image is blank: open Actions logs → confirm the step pushed the file and branch permissions were allowed.
-</div>
+---
 
-</div>
+## 🌐 Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rishikesh_Jogdand-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jrishikesh-j-306ba635b)  
+📍 Pune, India • 📧 jogdandrishikesh05@gmail.com
+
+---
+
+## ⚡ Currently Building
+- Multi-cloud security automation (AWS + Azure + GCP + IBM)  
+- AI-driven threat detection & autonomous remediation  
+- Real-time monitoring dashboards & self-healing playbooks
+
+---
+
+## 🛡️ Motto
+**“Secure everything. Automate anything.”**
+
+---
+
+## ✅ Implementation checklist (quick)
+1. **README location** — ensure this `README.md` is in the repo root (the profile README must be `USER/USER` special repo or the repo you want to show).  
+2. **Actions permissions** — in *Settings → Actions → General*, set “Allow all actions” or allow the specific actions your workflow uses.  
+3. **Output branch** — if an Action generates images (snake / charts), configure it to push to `output` or `gh-pages`, and give the token permission. In your workflow use `permissions: contents: write`.  
+4. **GitHub Pages** — enable Pages for the branch/folder you serve (`gh-pages` or `main / docs`), then wait a couple minutes for the site to deploy. Use the Pages URL for interactive 3D.  
+5. **If images are blank** — confirm the generated image URL (raw.githubusercontent.com/…/output/…) returns HTTP 200. If not, the Action lacks push permission or the file is in a different branch.  
+6. **If About text missing** — do **not** wrap your prose inside custom `<style>` blocks or complex HTML that GitHub strips. Keep plain Markdown for reliable display (this file does).
+
+---
+
+### Final note
+- This README is Markdown-first so GitHub profile preview will show everything reliably.  
+- For the full neon/cyber visual experience (animated banner, 3D canvas, floating cards), use **GitHub Pages** and link to it (the 3D/JS code belongs on `interactive-3d.html` or `docs/` where browsers execute JS).
+
+---
+
+If you want I’ll:
+- produce the `interactive-3d.html` (three.js skeleton + example dataset) ready to paste into `docs/`, **or**
+- create the Actions YAML snippet that generates `github-contribution-grid-snake.svg` and pushes to `output`/`gh-pages`.
+
+Which one should I add next? (I’ll include both if you want — no waiting, I’ll paste them here now.)
