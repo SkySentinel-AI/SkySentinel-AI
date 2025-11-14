@@ -1,39 +1,42 @@
 <p align="center">
-  <img src="docs/images/banner.svg" width="100%" />
+  <img src="docs/images/banner.svg" width="100%" alt="SkySentinel-AI banner"/>
 </p>
 
 <br/>
 
 <div align="center">
 
-# 🚀 **SkySentinel-AI**
+# 🚀 **SkySentinel-AI**  
 ### *DevSecOps Engineer • Cloud Security • AI-Driven Automation*
+
+<img src="https://cdn-icons-png.flaticon.com/512/9113/9113430.png" height="120" alt="avatar"/>
 
 </div>
 
+<br/>
+
 <p align="center">
-I build **secure, scalable, automated cloud ecosystems** with a focus on  
-**AWS Security**, **DevSecOps pipelines**, **AI-powered threat detection**,  
-and **self-healing cloud infrastructure**.
+I design <b>secure, scalable, automated cloud ecosystems</b> that can detect threats, respond automatically, and remediate without human intervention.  
+Focused on <b>AWS Security</b>, <b>DevSecOps</b>, <b>AI-assisted threat detection</b>, and <b>self-healing cloud infrastructure</b>.
 </p>
 
 ---
 
 # 🧠 **About Me**
-- I design cloud systems that **detect, respond, and auto-remediate** threats.  
-- Strong in **AWS, DevSecOps, Cloud Security, IaC, AI security automation**.  
-- Obsessed with **observability, resilience, and zero-trust design**.  
-- Currently building **multi-cloud automated defense systems** across AWS, Azure, GCP & IBM.
+- Build systems that **detect → respond → auto-remediate** security incidents  
+- Expert in **AWS**, **DevSecOps**, **Cloud Security**, **Terraform**, **Python/Bash automation**  
+- Strong focus on **observability, resilience, and zero-trust principles**  
+- Currently building **multi-cloud automated defense systems** (AWS + Azure + GCP + IBM)
 
 ---
 
 # 🛡️ **Core Expertise**
 - DevSecOps & Cloud Security  
-- AWS Automation (SNS, Lambda, EC2, IAM, CloudWatch)  
+- AWS Automation (EC2, Lambda, CloudWatch, SNS, IAM)  
 - Infrastructure as Code — **Terraform**  
 - CI/CD Pipelines (GitHub Actions, Jenkins)  
-- Python & Bash Automation  
-- AI-driven Incident Detection  
+- Python & Bash for Automation  
+- AI-driven incident detection & response
 
 ---
 
@@ -41,15 +44,15 @@ and **self-healing cloud infrastructure**.
 ### *Automated Cloud Security System (Detect → Block → Alert)*
 
 - Real-time intrusion detection  
-- Automated malicious IP blocking  
-- Lambda-based remediation workflow  
-- 24/7 hands-free cloud protection  
+- Lambda-based automated IP blocking  
+- CloudWatch → SNS alerts  
+- Hands-free, 24/7 cloud protection  
 
 🔗 **Live Project:**  
 https://skysentinel-ai.github.io/fail2ban-aws-project  
 
 🔗 **Repository:**  
-https://github.com/SkySentinel-AI/fail2ban-aws-project  
+https://github.com/SkySentinel-AI/fail2ban-aws-project
 
 ---
 
@@ -58,7 +61,7 @@ https://github.com/SkySentinel-AI/fail2ban-aws-project
 |---------|-------|
 | **Cloud** | AWS (EC2, Lambda, CloudWatch, SNS, IAM) |
 | **DevOps** | GitHub Actions, Docker, CI/CD |
-| **Security** | Fail2Ban, IAM, CloudWatch Alerts |
+| **Security** | Fail2Ban, CloudWatch Alerts, IAM Automation |
 | **Languages** | Python, Bash |
 | **IaC** | Terraform |
 
@@ -68,31 +71,31 @@ https://github.com/SkySentinel-AI/fail2ban-aws-project
 
 ### 🔹 Stats Overview
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight&hide_border=true" width="60%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight&hide_border=true" width="60%" alt="GitHub stats"/>
 </p>
 
 ### 🔹 Top Languages
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight&hide_border=true" width="40%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight&hide_border=true" width="40%" alt="Top languages"/>
 </p>
 
-### 🔹 Contribution Streak (Cyber UI)
+### 🔹 Contribution Streak
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=SkySentinel-AI&theme=tokyonight&hide_border=true" width="60%"/>
+  <img src="https://streak-stats.demolab.com?user=SkySentinel-AI&theme=tokyonight&hide_border=true" width="60%" alt="streak"/>
 </p>
 
 ---
 
 # 🐍 **Cyber-Blue Contribution Snake**
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SkySentinel-AI/SkySentinel-AI/output/github-contribution-grid-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/SkySentinel-AI/SkySentinel-AI/output/github-contribution-grid-snake.svg" alt="contribution snake"/>
 </p>
 
 ---
 
 # 📈 **Activity Graph**
 <p align="center">
- <img src="https://github-readme-activity-graph.vercel.app/graph?username=SkySentinel-AI&theme=react-dark&hide_border=true&area=true"/>
+ <img src="https://github-readme-activity-graph.vercel.app/graph?username=SkySentinel-AI&theme=react-dark&hide_border=true&area=true" width="60%" alt="activity graph"/>
 </p>
 
 ---
@@ -107,7 +110,7 @@ https://github.com/SkySentinel-AI/fail2ban-aws-project
 
 # ⚡ **Currently Building**
 - Multi-cloud security automation (AWS + Azure + GCP + IBM)  
-- AI-powered threat detection tools  
+- AI-powered threat detection engines  
 - Autonomous security pipelines  
 - Real-time cloud monitoring dashboards  
 
