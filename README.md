@@ -1,113 +1,183 @@
+<!-- README.md — SkySentinel-AI — Dark Cloud Security Theme (paste entire file) -->
+
 <p align="center">
   <img src="docs/images/banner.svg" alt="SkySentinel-AI banner" width="100%"/>
 </p>
 
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-labelledby="title desc">
-  <title id="title">SkySentinel-AI banner</title>
-  <desc id="desc">Dark neon cyber banner: SkySentinel-AI, DevSecOps • Cloud Security • AI-driven Automation</desc>
+<!--
+  Dark-first README: some <style> blocks may be sanitized in GitHub profile README.
+  For full effect, view via GitHub Pages (https://<username>.github.io/<repo>/interactive-3d.html)
+-->
 
-  <!-- Background gradients -->
-  <defs>
-    <linearGradient id="bg" x1="0" x2="1">
-      <stop offset="0" stop-color="#021026"/>
-      <stop offset="0.35" stop-color="#002338"/>
-      <stop offset="1" stop-color="#001026"/>
-    </linearGradient>
+<style>
+:root{
+  --bg-dark: #05070a;
+  --panel: rgba(255,255,255,0.02);
+  --neon-cyan: #00eaff;
+  --neon-teal: #2ee6c6;
+  --muted: #94a6b0;
+  --accent: linear-gradient(90deg,#00172b,#002b40);
+  --glass: rgba(255,255,255,0.02);
+}
+body, .dark-wrap { background: var(--bg-dark); color: #d6eef5; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+.dark-wrap { max-width: 980px; margin: 18px auto; padding: 18px; }
+.profile-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius: 12px; padding: 26px; box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+  position: relative; overflow: visible;
+}
+.title { font-size: 34px; font-weight:800; letter-spacing:-0.6px; margin:0; color:#ffffff; display:inline-block; }
+.subtitle { color:var(--muted); margin-top:6px; font-weight:600; }
+.neon-line { height:4px; border-radius:4px; margin:18px 0; background: linear-gradient(90deg,var(--neon-cyan),var(--neon-teal),#0047ff); box-shadow:0 8px 36px rgba(0,0,0,0.45) inset; }
+.cube { width:110px; height:110px; transform-style:preserve-3d; animation: spin 7s linear infinite; margin-left:18px; }
+@keyframes spin { from { transform: rotateX(-18deg) rotateY(0deg);} to { transform: rotateX(-18deg) rotateY(360deg);} }
+.typebox{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace; color:var(--neon-cyan); border-right:2px solid rgba(0,230,255,0.9); padding-right:8px; animation: blink 1s steps(2,end) infinite; font-weight:600; }
+@keyframes blink { 50% { border-color: transparent; } }
+.panel { margin-top:8px; background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00)); padding:14px; border-radius:8px; border: 1px solid rgba(255,255,255,0.02); }
+.small { color:var(--muted); font-size:14px; }
+.pill { display:inline-block; padding:6px 10px; border-radius:999px; background: rgba(0,240,255,0.04); color:var(--neon-cyan); font-weight:700; font-size:13px; border: 1px solid rgba(0,240,255,0.05); }
+.footer-note { color: #a3c7d1; font-size:13px; margin-top:10px; }
+/* responsive */
+@media (max-width:720px){ .title { font-size:24px; } .cube { display:none; } }
+</style>
 
-    <linearGradient id="glow" x1="0" x2="1">
-      <stop offset="0" stop-color="#00f0ff" stop-opacity="0.25"/>
-      <stop offset="0.45" stop-color="#2ee6c6" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="#003bff" stop-opacity="0.08"/>
-    </linearGradient>
+<div class="dark-wrap">
 
-    <radialGradient id="rightOrb" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#00eaff" stop-opacity="0.95"/>
-      <stop offset="0.45" stop-color="#00a6ff" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#001826" stop-opacity="0"/>
-    </radialGradient>
+<div class="profile-card" role="banner">
+  <div style="display:flex; align-items:center; gap:18px; flex-wrap:wrap; justify-content:center;">
+    <div style="text-align:left;">
+      <h1 class="title">🚀 SkySentinel-AI</h1>
+      <div class="subtitle">DevSecOps Engineer • Cloud Security • AI-Driven Automation • SRE Mindset</div>
+    </div>
 
-    <!-- subtle grid pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0 L0 0 0 40" fill="none" stroke="#002b3a" stroke-opacity="0.06" stroke-width="1"/>
-    </pattern>
+    <!-- 3D spinning cube (SVG fallback) -->
+    <div aria-hidden="true">
+      <svg class="cube" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="3D cube">
+        <defs>
+          <linearGradient id="cg1" x1="0" x2="1"><stop offset="0" stop-color="#00172b"/><stop offset="1" stop-color="#003b5c"/></linearGradient>
+          <linearGradient id="cg2" x1="0" x2="1"><stop offset="0" stop-color="#00eaff"/><stop offset="1" stop-color="#2ee6c6"/></linearGradient>
+          <filter id="glo" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <g transform="translate(50,50)">
+          <rect x="-28" y="-28" width="56" height="56" rx="8" fill="url(#cg1)" opacity="0.96" filter="url(#glo)"/>
+          <rect x="-10" y="-10" width="20" height="20" rx="3" fill="url(#cg2)"/>
+          <text x="0" y="36" font-family="Inter, Arial" font-size="8" text-anchor="middle" fill="#a6f8ff">SS</text>
+        </g>
+      </svg>
+    </div>
+  </div>
 
-    <!-- neon glow filter -->
-    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+  <p style="text-align:center; margin-top:14px;">
+    <span class="typebox">I build secure, automated cloud systems that detect → respond → auto-remediate…</span><br/>
+    <span class="small">Focused on AWS Security, DevSecOps pipelines, AI-driven detection, and self-healing infra.</span>
+  </p>
+</div>
 
-    <!-- thin stripe accent -->
-    <linearGradient id="accent" x1="0" x2="1">
-      <stop offset="0" stop-color="#00f0ff"/>
-      <stop offset="0.6" stop-color="#2ee6c6"/>
-      <stop offset="1" stop-color="#0066ff"/>
-    </linearGradient>
-  </defs>
+<div class="neon-line" role="presentation"></div>
 
-  <!-- base -->
-  <rect width="1600" height="360" fill="url(#bg)"/>
+<!-- About -->
+<div class="panel">
+<h2 id="about">🧠 About / Core Expertise</h2>
+<ul>
+  <li><strong>Detect → Respond → Auto-remediate</strong> — autonomous security workflows & runbooks</li>
+  <li><strong>Cloud & Security</strong> — AWS (Lambda, EC2, CloudWatch, SNS, IAM), fail2ban automation</li>
+  <li><strong>Infra & CI</strong> — Terraform, GitHub Actions, Docker, CI/CD</li>
+  <li><strong>Automation</strong> — Python, Bash, serverless remediation</li>
+  <li><strong>Observability</strong> — dashboards, metrics, anomaly detection (Prometheus/CloudWatch)</li>
+</ul>
+</div>
 
-  <!-- subtle pattern overlay -->
-  <rect width="1600" height="360" fill="url(#grid)" opacity="0.40"/>
+<!-- Featured project -->
+<div class="panel" style="margin-top:14px;">
+<h2>🔥 Featured Project — Fail2Ban AWS</h2>
+<p><em>Automated Cloud Security System: Detect → Block → Alert</em></p>
+<ul>
+  <li>Real-time intrusion detection & automatic IP banning</li>
+  <li>Lambda-based remediation + CloudWatch → SNS alert pipeline</li>
+  <li>Fully automated, hands-free cloud defense (24/7)</li>
+</ul>
+<p class="small">
+🔗 <strong>Live:</strong> <a href="https://skysentinel-ai.github.io/fail2ban-aws-project">skysentinel-ai.github.io/fail2ban-aws-project</a><br/>
+🔗 <strong>Repo:</strong> <a href="https://github.com/SkySentinel-AI/fail2ban-aws-project">github.com/SkySentinel-AI/fail2ban-aws-project</a>
+</p>
+</div>
 
-  <!-- left faint cyber rays -->
-  <g transform="translate(60,40)">
-    <ellipse cx="180" cy="120" rx="420" ry="140" fill="url(#glow)" opacity="0.08"/>
-    <ellipse cx="140" cy="120" rx="320" ry="100" fill="url(#glow)" opacity="0.06"/>
-  </g>
+<!-- Tech stack -->
+<div class="panel" style="margin-top:14px;">
+<h2>🧩 Tech Stack</h2>
+<table>
+  <tr><td><strong>Cloud</strong></td><td>AWS (Lambda, EC2, CloudWatch, SNS, IAM)</td></tr>
+  <tr><td><strong>Automation</strong></td><td>Python, Bash, Serverless</td></tr>
+  <tr><td><strong>Infra</strong></td><td>Terraform, IaC, VCS</td></tr>
+  <tr><td><strong>CI / Security</strong></td><td>GitHub Actions, Fail2Ban, CloudWatch Alerts</td></tr>
+</table>
+</div>
 
-  <!-- accent underline -->
-  <rect x="120" y="160" width="720" height="6" rx="3" fill="url(#accent)" filter="url(#neon)" opacity="0.95"/>
+<!-- Analytics -->
+<div style="text-align:center; margin:20px 0;">
+<h2>📊 GitHub Analytics (Dark UI)</h2>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=dark&hide_border=true" width="62%" alt="GitHub stats"/>
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=dark&hide_border=true" width="42%" alt="Top languages"/>
+</p>
+</div>
 
-  <!-- Title group -->
-  <g transform="translate(120,82)" fill="#e6f9ff" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial" >
-    <text x="0" y="48" font-size="44" font-weight="700" letter-spacing="-0.6">SkySentinel-AI</text>
-    <text x="0" y="88" font-size="16" fill="#9fcbd6" font-weight="600">DevSecOps • Cloud Security • AI-driven Automation</text>
-  </g>
+<!-- Contribution snake + activity graph -->
+<div class="panel" style="margin-top:10px;">
+<h2>🐍 Cyber-Blue Contribution Snake</h2>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SkySentinel-AI/SkySentinel-AI/output/github-contribution-grid-snake.svg" alt="contribution snake" style="max-width:100%; border-radius:8px; box-shadow:0 8px 36px rgba(0,0,0,0.45)"/>
+</p>
+<p class="small" style="text-align:center;">If blank: allow the Action that generates the snake to push to `output` or `gh-pages` branch.</p>
 
-  <!-- thin divider (neon) -->
-  <g transform="translate(120,132)">
-    <rect x="0" y="0" width="760" height="1" fill="#0b2f3a" opacity="0.5"/>
-  </g>
+<h2>📈 Activity Graph</h2>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SkySentinel-AI&theme=react-dark&hide_border=true&area=true" width="72%" alt="activity graph"/>
+</p>
+</div>
 
-  <!-- right orb / emblem -->
-  <g transform="translate(1200,60)">
-    <circle cx="120" cy="120" r="82" fill="url(#rightOrb)" opacity="0.95"/>
-    <!-- inner shape (diamond) -->
-    <g transform="translate(120,120) rotate(45)">
-      <rect x="-22" y="-44" width="44" height="88" rx="6" ry="6" fill="#002b3a" opacity="0.15"/>
-      <path d="M0 -34 L20 0 L0 34 L -20 0 Z" fill="none" stroke="#67f3ff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" filter="url(#neon)"/>
-      <path d="M0 -22 L12 0 L0 22 L -12 0 Z" fill="none" stroke="#00b3ff" stroke-width="2" opacity="0.9"/>
-    </g>
-    <!-- subtle ring -->
-    <circle cx="120" cy="120" r="100" fill="none" stroke="#003b5c" stroke-opacity="0.18" stroke-width="6"/>
-  </g>
+<!-- Interactive 3D -->
+<div class="panel" style="margin-top:14px;">
+<h2>🎛️ Interactive 3D Dashboard (Live)</h2>
+<p>Experience the 3D Fail2Ban Security Visualization (attacks, blocks, alerts mapped in interactive 3D):</p>
+<p style="text-align:center;">
+  <a class="pill" href="https://skysentinel-ai.github.io/SkySentinel-AI/interactive-3d.html">Open 3D Visualization (Pages)</a>
+</p>
+<p class="small">Note: interactive 3D uses three.js / Plotly and must run on GitHub Pages (static host) — README itself cannot run advanced JS inside the GitHub profile preview.</p>
+</div>
 
-  <!-- faint top-left corner label -->
-  <g transform="translate(40,20)">
-    <rect x="0" y="0" width="120" height="28" rx="6" fill="#001a24" opacity="0.28"/>
-    <text x="12" y="19" font-size="12" fill="#8adbe6" font-weight="700">DevSecOps</text>
-  </g>
+<!-- Connect -->
+<div class="panel" style="margin-top:14px;">
+<h2>🌐 Connect</h2>
+<p>
+  <a href="https://linkedin.com/in/jrishikesh-j-306ba635b"><img src="https://img.shields.io/badge/LinkedIn-Rishikesh_Jogdand-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a><br/>
+  📍 Pune, India — 📧 <a href="mailto:jogdandrishikesh05@gmail.com">jogdandrishikesh05@gmail.com</a>
+</p>
+</div>
 
-  <!-- optional small accent icon near text (stack of docs) -->
-  <g transform="translate(100,200)" opacity="0.98" fill="#94f7ff">
-    <rect x="0" y="0" width="44" height="30" rx="3" fill="#001a24" opacity="0.06"/>
-    <path d="M6 6h28v2H6zM6 12h28v2H6zM6 18h18v2H6z" fill="#69f0ff" opacity="0.85"/>
-  </g>
+<!-- Currently building / motto -->
+<div class="panel" style="margin-top:14px;">
+<h2>⚡ Currently Building</h2>
+<ul>
+  <li>Multi-cloud security automation (AWS + Azure + GCP + IBM)</li>
+  <li>AI-powered threat detection & autonomous remediation</li>
+  <li>Real-time cloud monitoring dashboards & self-healing playbooks</li>
+</ul>
 
-  <!-- bottom cyber frame line -->
-  <rect x="90" y="310" width="1420" height="6" rx="3" fill="url(#accent)" opacity="0.18"/>
+<h2>🛡️ Motto</h2>
+<div style="text-align:center; font-weight:700; font-size:18px; margin-top:8px;">“Secure everything. Automate anything.”</div>
+</div>
 
-  <!-- accessibility: fallback text for non-SVG renders (screen readers ignore visually) -->
-  <foreignObject x="0" y="0" width="1" height="1" style="overflow:visible">
-    <p xmlns="http://www.w3.org/1999/xhtml" style="font-size:1px;opacity:0">SkySentinel-AI — DevSecOps • Cloud Security • AI-driven Automation</p>
-  </foreignObject>
+<!-- Implementation notes -->
+<div class="footer-note">
+<hr/>
+**Implementation notes & quick checklist (read before committing)**:
+- GitHub profile READMEs may strip some `<style>`/JS. The dark theme & cube SVG remain useful in **raw / Pages** view. For full animation use **GitHub Pages**.
+- To show generated images (contribution snake / charts) ensure your GitHub Actions workflow has **write permission** and can push to `output` or `gh-pages`. (Check *Settings → Actions → Workflow permissions* — set "Read and write permissions" and allow actions to create & approve PRs if needed).
+- 3D interactive page is served from `interactive-3d.html` under GitHub Pages (push to `gh-pages` or configure Pages from `main`/`docs`).
+- If an image is blank: open Actions logs → confirm the step pushed the file and branch permissions were allowed.
+</div>
 
-</svg>
 </div>
