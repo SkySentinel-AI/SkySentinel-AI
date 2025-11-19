@@ -1,113 +1,109 @@
-<p align="center">
-  <img src="docs/images/banner.svg" width="100%" alt="SkySentinel-AI banner"/>
-</p>
+<!-- ========================================================= -->
+<!-- 🚀 J RISHIKESH — DEVSECOPS • CLOUD SECURITY • AI SYSTEMS -->
+<!-- ========================================================= -->
 
-<div align="center">
-
-# 🚀 SkySentinel-AI  
-### *DevSecOps Engineer • Cloud Security • AI-Driven Automation*
-
-</div>
+<h1 align="center">🛰️ J Rishikesh</h1>
+<h2 align="center">DevSecOps • Cloud Security Engineer • AI-Driven Defensive Systems</h2>
 
 <p align="center">
-I design **secure, scalable, automated cloud ecosystems** that detect threats, respond automatically, and remediate without human intervention.  
-Primary focus: **AWS Security**, **DevSecOps**, **AI-assisted detection**, and **self-healing infrastructure**.
+  <img src="assets/profile_banner.png" width="100%" alt="Futuristic Banner"/> <!-- Replace -->
 </p>
 
 ---
 
-## 🧠 About Me
-- I build cloud systems that **detect → respond → auto-remediate** security incidents.  
-- Strong in **AWS, DevSecOps, Cloud Security, Terraform, Python/Bash automation**.  
-- Obsessed with **observability, resilience, and zero-trust** architecture.  
-- Currently building **multi-cloud automated defense systems** (AWS, Azure, GCP, IBM).
+## 🔥 Who I Am  
+I build **AI-powered security systems**, cloud-native automation, and modern DevSecOps pipelines.  
+My projects combine **AI, threat detection, cloud security, and real-time observability** —  
+designed to simulate **real-world enterprise defense systems**.
+
+🔹 DevSecOps & Cloud Security  
+🔹 Threat Detection & Remediation  
+🔹 AI-Driven Security Automation  
+🔹 Container Security • Monitoring • Zero Trust  
 
 ---
 
-## 🛡️ Core Expertise
-- DevSecOps & Cloud Security  
-- AWS Automation (EC2, Lambda, CloudWatch, SNS, IAM)  
-- Infrastructure as Code — **Terraform**  
-- CI/CD Pipelines (GitHub Actions | Jenkins)  
-- Python & Shell Automation  
-- AI-driven incident detection & response
+## 🚀 Featured Project — SkySentinel-AI  
+A **cloud security intelligence system** powered by AI + automation.
 
----
-
-## 🔥 Featured Project — Fail2Ban AWS
-**Automated Cloud Security System — Detect → Block → Alert**
-
-- Real-time intrusion detection  
-- Lambda-based automated IP banning & remediation  
-- CloudWatch → SNS alerts and dashboards  
-- Fully automated cloud protection (hands-free)
-
-**Live project:** https://skysentinel-ai.github.io/fail2ban-aws-project  
-**Repo:** https://github.com/SkySentinel-AI/fail2ban-aws-project
-
----
-
-## 🧩 Tech Stack
-| Category | Tools |
-|---|---|
-| **Cloud** | AWS (EC2, Lambda, CloudWatch, SNS, IAM) |
-| **DevOps** | GitHub Actions, Docker, CI/CD |
-| **Security** | Fail2Ban, CloudWatch alerts, IAM automation |
-| **Languages** | Python, Bash |
-| **IaC** | Terraform |
-
----
-
-## 📊 GitHub Analytics (Premium UI)
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight&hide_border=true" width="60%" alt="GitHub stats"/>
+  <img src="assets/skysentinel_banner.png" width="100%" />  <!-- Replace -->
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight&hide_border=true" width="40%" alt="Top languages"/>
-</p>
+🔐 Cloud posture evaluation  
+🤖 Automated remediation workflows  
+☁️ Multi-cloud compatibility  
+📊 Real-time monitoring + alerting  
+
+🔗 **Repo:** https://github.com/jrishi98/SkySentinel-AI
 
 ---
 
-## 🐍 Cyber-Blue Contribution Snake
+## 🛰️ Featured Project — TriCloudSentinel  
+**AI-Driven Multi-Agent Threat Detection + Prometheus + Grafana Cloud**
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SkySentinel-AI/SkySentinel-AI/output/github-contribution-grid-snake.svg" alt="contribution snake" style="max-width:100%; border-radius:8px;" />
+  <img src="assets/tricloud_banner.png" width="100%" /> <!-- Replace -->
 </p>
 
-> If the snake is blank: make sure the Action that generates it has permission to push to the `output` (or `gh-pages`) branch — see the Implementation Checklist below.
+✔ Three independent AI agents  
+✔ Ensemble detection engine  
+✔ Safety Gate auto-remediation  
+✔ Full observability with Grafana  
+
+🔗 **Repo:** https://github.com/jrishi98/TriCloudSentinel-demo
 
 ---
 
-## 📈 Activity Graph
+## 🧠 Skills & Tech Stack
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SkySentinel-AI&theme=react-dark&hide_border=true&area=true" width="70%" alt="activity graph"/>
+  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,linux,docker,kubernetes,terraform,git,github,py,prometheus,grafana,nginx,cloudflare&theme=light" />
 </p>
 
 ---
 
-## 🎛️ Interactive 3D Dashboard (Live)
-Experience a 3D visualization of attacks, blocks, and alerts mapped in interactive 3D (three.js / Plotly) — **runs on GitHub Pages**:
+## 📊 GitHub Analytics (Premium Style)
 
-**Open 3D Visualization (Pages)** →  
-https://skysentinel-ai.github.io/SkySentinel-AI/interactive-3d.html
-
-> Note: interactive 3D uses JavaScript and must be hosted on **GitHub Pages** (or another static host). The README itself cannot execute complex JS inside the profile preview.
-
----
-
-## 🌐 Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rishikesh_Jogdand-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jrishikesh-j-306ba635b)  
-📍 Pune, India • 📧 jogdandrishikesh05@gmail.com
+<p align="center">
+  <img src="assets/github_stats_dark.png" width="48%" /> <!-- Replace -->
+  <img src="assets/github_languages.png" width="48%" />  <!-- Replace -->
+</p>
 
 ---
 
-## ⚡ Currently Building
-- Multi-cloud security automation (AWS + Azure + GCP + IBM)  
-- AI-driven threat detection & autonomous remediation  
-- Real-time monitoring dashboards & self-healing playbooks
+## 🎛️ Interactive 3D Dashboard (Coming Soon)
+
+<p align="center">
+  <img src="assets/3d_dashboard_placeholder.png" width="80%" /> <!-- Replace -->
+</p>
+
+> I’m building a **3D Cyber Defense Dashboard** — real-time threat simulation in 3D.
 
 ---
 
-## 🛡️ Motto
-**“Secure everything. Automate anything.”**
+## 🛠️ Currently Building  
+- 🧪 AI-based malware scoring engine  
+- 🌐 Zero-Trust policy visualizer  
+- 🛰️ SkySentinel-AI v2 (autonomous cloud defense)  
+- 📡 Real-time threat map dashboard  
+
+---
+
+## 🤝 Connect with Me
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/jrishikesh">
+    <img src="https://skillicons.dev/icons?i=linkedin" width="48px"/>
+  </a>
+  <a href="mailto:j.rishikesh.in@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" width="48px"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  🌐 *"AI-Driven Cloud Security is the future — and I'm building it."*  
+</p>
 
