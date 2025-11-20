@@ -1,76 +1,49 @@
-# ⚡ J Rishikesh — SkySentinel-AI
-
-<img src="./assets/MAIN%20BANNER.png" alt="Main Banner" />
-
-**🛡️ DevSecOps • Cloud Security Engineer • AI-Driven Defensive Systems**
-
 <p align="center">
-<!-- Badges -->
-<img alt="DevSecOps" src="https://img.shields.io/badge/DEVSECOPS-EXPERT-000000?style=for-the-badge&logo=github&logoColor=fff"/>
-<img alt="Cloud" src="https://img.shields.io/badge/CLOUDSECURITY-AWS%7CGCP%7CAZURE%7CIBM-007ACC?style=for-the-badge"/>
-<img alt="AI Automation" src="https://img.shields.io/badge/AI_AUTOMATION-THREAT_DETECTION-FF6F00?style=for-the-badge"/>
+  <img src="assets/MAIN BANNER.png" width="100%">
 </p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/DEVSECOPS-EXPERT-000?style=for-the-badge&logo=dependabot&logoColor=white">
+  <img src="https://img.shields.io/badge/CLOUDSECURITY-AWS|GCP|AZURE|IBM-0059ff?style=for-the-badge&logo=cloudflare&logoColor=white">
+  <img src="https://img.shields.io/badge/AI_AUTOMATION-THREAT_DETECTION-f00000?style=for-the-badge&logo=tensorflow&logoColor=white">
+</p>
 
-## 🔥 About Me
-Cloud Security & DevSecOps Engineer building AI-powered defensive systems.  
-Focus areas:
-- Real-time threat detection & autonomous remediation  
-- Distributed multi-cloud security (AWS, GCP, Azure, IBM)  
-- Observability & zero-trust architecture  
-- Automation + AI/ML for security decisioning
+<p align="center">
+  <img src="assets/FAIL2BAN AWS.png" width="88%">
+</p>
 
----
+<p align="center">
+  <img src="assets/TriCloudSentinel Banner.PNG" width="88%">
+</p>
 
-## ⭐ Featured Cloud Security Projects
+<p align="center">
+  <img src="assets/TECH STACK banner.png" width="90%">
+</p>
 
-### 1) Fail2Ban-AWS (Automated Cloud Hardening)
-![Fail2Ban Banner](./assets/FAIL2BAN%20AWS.png)
-- Lambda-based IP banning, CloudWatch alerts, automated remediation.
-- Repo: `https://github.com/SkySentinel-AI/fail2ban-aws-project`
+<p align="center">
+  <img src="assets/Currently Building.PNG" width="85%">
+</p>
 
-### 2) TriCloudSentinel — Multi-Agent AI Threat Detection
-![TriCloudSentinel Banner](./assets/TriCloudSentinel%20Banner.PNG)
-- Multi-agent scoring, ensemble engine, safety gate auto-response, Prometheus + Grafana dashboards.
-- Repo: `https://github.com/SkySentinel-AI/TriCloudSentinel-demo`
+<br>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SkySentinel-AI/SkySentinel-AI/output/github-contribution-grid-snake.svg">
+</p>
 
-## 🧰 Tech Stack
-![Tech Stack](./assets/TECH%20STACK%20banner.png)
+<p align="center">
+  <img src="assets/LIVE ACTIVITY HEATMAP.PNG" width="85%">
+</p>
 
----
+<p align="center">
+  <a href="https://linkedin.com/in/j-r-306ba635b">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="60px">
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:jogdandrishikesh05@gmail.com">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="60px">
+  </a>
+</p>
 
-## 📈 GitHub Analytics & Live Widgets
-**Note:** some widgets require SVG/JS or external services and may not render inside a profile preview. Using repository-hosted images ensures they show up.
-
-- GitHub Stats / Top Languages / Trophies (use the vercel badges with your username in README if desired)
-- Contribution snake (static image for now):  
-  ![Contribution Snake](./assets/CONTRIBUTION%20SNAKE.PNG)
-
-- Live Activity heatmap (image):  
-  ![Live Activity Heatmap](./assets/LIVE%20ACTIVITY%20HEATMAP.PNG)
-
----
-
-## 🔧 Currently Building
-![Currently Building](./assets/Currently%20Building.PNG)
-
-Working on:
-- SkySentinel-AI v2 (autonomous cloud defense)
-- Real-time 3D Threat Map (interactive)
-- Zero Trust Access Engine (ABAC)
-- AI-based malware scoring
-
----
-
-## 🤝 Connect with me
-![Connect With Me](./assets/CONNECT%20WITH%20ME.png)
-
-- LinkedIn: http://linkedin.com/in/j-r-306ba635b  
-- Email: jogdandrishikesh05@gmail.com
-
----
-
-> “AI-Driven Cloud Security is the future — and I’m building it.”  
+<p align="center">
+  <i>“AI-Driven Cloud Security is the future — and I’m building it.”</i>
+</p>
