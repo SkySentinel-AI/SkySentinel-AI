@@ -2,40 +2,42 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
-  workflow_dispatch:         # allows manual run from Actions UI
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo (full history)
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Generate GitHub contribution snake SVG
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: SkySentinel-AI
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Commit generated snake to output branch
+      - name: Commit Snake to output branch
         shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # make sure we are writing the generated file into the output branch
+
           git checkout -B output
           mkdir -p output
           mv -f dist/github-contribution-grid-snake.svg output/github-contribution-grid-snake.svg
+
           git add output/github-contribution-grid-snake.svg
+
           if git diff --staged --quiet; then
-            echo "No snake changes to commit"
+            echo "No changes"
           else
-            git commit -m "chore: update contribution snake (generated)"
-            # push using the default GITHUB_TOKEN permissions
+            git commit -m "chore: update snake"
             git push origin output --force-with-lease
           fi
+YML
