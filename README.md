@@ -1,126 +1,134 @@
 <!-- ========================================================= -->
-<!-- 🚀 J RISHIKESH — CYBERSECURITY • DEVSECOPS • AI DEFENSE -->
+<!-- 🔥 PREMIUM DARK CYBER THEME README FOR SkySentinel-AI -->
 <!-- ========================================================= -->
 
-<h1 align="center">🛰️ J Rishikesh</h1>
-<h2 align="center">DevSecOps • Cloud Security Engineer • AI-Driven Defensive Systems</h2>
-
 <p align="center">
-  <img src="assets/profile_banner.png" width="100%" alt="Cyber Banner"/> <!-- replace -->
+  <img src="assets/profile-banner.png" width="100%" />
 </p>
 
-<div align="center">
-
-![Static Badge](https://img.shields.io/badge/DevSecOps-Expert-purple?style=for-the-badge)  
-![Static Badge](https://img.shields.io/badge/CloudSecurity-AWS|GCP|Azure-blue?style=for-the-badge)  
-![Static Badge](https://img.shields.io/badge/AI%20Automation-Threat%20Detection-red?style=for-the-badge)
-
-</div>
-
----
-
-# 🌌 About Me
-I'm a **Cloud Security & DevSecOps Engineer** building **AI-powered cybersecurity systems**.  
-My work focuses on:
-
-⚡ Real-time threat detection  
-⚡ Distributed cloud security pipelines  
-⚡ AI-based decision making  
-⚡ Observability + automation + zero-trust  
-
----
-
-# ⭐ **Featured Projects**
-
-## 🛰️ SkySentinel-AI — Cloud Security Intelligence  
-<p align="center">
-  <img src="assets/skysentinel_banner.png" width="100%" />  <!-- replace -->
-</p>
-
-🔐 AI-powered Cloud Threat Analyzer  
-📡 Multi-cloud posture detection  
-⚙️ Autonomous remediation  
-📊 Real-time dashboards  
-
-🔗 https://github.com/jrishi98/SkySentinel-AI
-
----
-
-## 🚨 TriCloudSentinel — Multi-Agent AI Threat Detection  
-<p align="center">
-  <img src="assets/tricloud_banner.png" width="100%" /> <!-- replace -->
-</p>
-
-✔ Three AI agents  
-✔ Ensemble Threat Intelligence  
-✔ Safety Gate auto-response  
-✔ Prometheus + Grafana Cloud  
-
-🔗 https://github.com/jrishi98/TriCloudSentinel-demo
-
----
-
-# 🧠 Tech Stack
+<h1 align="center">⚡ J Rishikesh — SkySentinel-AI</h1>
+<h3 align="center">🛡️ DevSecOps • Cloud Security Engineer • AI-Driven Cyber Defense</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,linux,docker,k8s,terraform,git,github,py,prometheus,grafana,cloudflare,nginx&theme=dark" />
+  <img src="https://img.shields.io/badge/DevSecOps-Expert-8A2BE2?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/CloudSecurity-AWS%20%7C%20GCP%20%7C%20Azure%20%7C%20IBM-0A84FF?style=for-the-badge&logo=icloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI_Automation-Threat_Detection-FE2C54?style=for-the-badge&logo=tensorflow&logoColor=white" />
 </p>
 
 ---
 
-# 📊 GitHub Analytics (Premium Cyber UI)
+# 🔥 About Me — Dark Cyber Profile
 
-<div align="center">
+I specialize in **Cloud Security**, **DevSecOps**, and **AI-powered threat detection**.  
+My mission is to build *autonomous defensive systems* that protect cloud infrastructures at real-time speed.
 
-<img src="assets/github_stats_dark.png" width="45%"> <!-- replace -->
-<img src="assets/github_languages.png" width="45%"> <!-- replace -->
-
-</div>
+### 🔐 Core Skill Areas
+- **Distributed Multi-Cloud Security** (AWS, GCP, Azure, IBM)
+- **AI/ML for Cyber Defense**  
+- **Threat detection, anomaly scoring, automated remediation**
+- **Zero-Trust & Observability Pipelines**
+- **DevSecOps automation & pipeline hardening**
 
 ---
 
-# 🏆 GitHub Trophies  
+# ⭐ **Featured Cybersecurity Projects**
+
+---
+
+## 🔭 1) fail2ban-AWS-project  
+**AI-assisted cloud intrusion blocking with automated remediation**
+
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jrishi98&theme=discord&margin-w=10&row=1" />
+  <img src="assets/fail2ban-banner.png" width="90%" />
+</p>
+
+**Highlights**
+- Auto-block malicious IPs using AWS APIs  
+- Integrated IAM-secured remediation pipeline  
+- Real-time detection + SNS notifications  
+
+🔗 **Repo:** https://github.com/SkySentinel-AI/fail2ban-AWS-project  
+
+---
+
+## 🛰️ 2) TriCloudSentinel — Multi-Agent AI Threat Detection  
+**AI-powered, fully containerized, multi-cloud detection system**
+
+<p align="center">
+  <img src="assets/tricloud-banner.png" width="90%" />
+</p>
+
+**Highlights**
+- 3 AI Agents → Ensemble → Safety Gate  
+- Real-time scoring, anomaly detection  
+- Prometheus + Grafana Cloud Observability  
+- Docker Compose distributed architecture  
+
+🔗 **Repo:** https://github.com/SkySentinel-AI/TriCloudSentinel-demo
+
+---
+
+# 🧠 Tech Stack — Cyber Arsenal
+
+<p align="center">
+  <img src="assets/techstack-banner.png" width="100%" />
+</p>
+
+<p align="center">
+  <!-- Cloud -->
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/IBM_Cloud-1261FE?style=for-the-badge&logo=ibmcloud&logoColor=white" />
+
+  <!-- DevOps -->
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+
+  <!-- Security -->
+  <img src="https://img.shields.io/badge/Cloud_Custodian-000000?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/OWASP_ZAP-7700B8?style=for-the-badge&logo=owasp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+
+  <!-- Languages -->
+  <img src="https://img.shields.io/badge/Python-3666AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 </p>
 
 ---
 
-# 🐍 Contribution Snake (Animated)  
+# 📊 GitHub Analytics (Live)
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jrishi98/jrishi98/output/github-contribution-grid-snake.svg" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight" />
+  <img src="https://github-profile-trophy.vercel.app/?username=SkySentinel-AI&theme=onestar&no-frame=true&row=1" />
+</p>
+
+### 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SkySentinel-AI/SkySentinel-AI/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 ---
 
-# ⚡ Live Activity Heatmap  
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jrishi98&theme=react-dark&area=true&hide_border=true" />
-</p>
-
----
-
-# 🛰️ Currently Building
-- SkySentinel-AI v2 (Autonomous Cloud Defense)
-- Real-time Cyber Threat Map (3D)
-- Zero Trust Access Engine
-- AI-based Malware Scoring System
-
----
-
-# 🤝 Connect with Me  
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/jrishikesh">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="48"/>
-  </a>
-  <a href="mailto:j.rishikesh.in@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" width="48"/>
-  </a>
-</p>
-
----
+# 🤝 Connect With Me
 
 <p align="center">
-🌐 <b>"AI-Driven Cloud Security Is the Future — and I'm Building It."</b>
+  <img src="assets/connect-banner.png" width="90%"/>
+</p>
+
+### 🔗 **LinkedIn:**  
+https://linkedin.com/in/j-r-306ba635b  
+
+### 📧 **Email:**  
+**jogdandrishikesh05@gmail.com**
+
+---
+
+<p align="center">⚡ *AI-Driven Cloud Security is the Future — and I’m Building It.* ⚡</p>
 </p>
