@@ -2,22 +2,40 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:         # allows manual run from Actions UI
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate GitHub Contribution Snake
+      - name: Checkout repo (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate GitHub contribution snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: SkySentinel-AI
-          outputs: |
-            dist/github-contribution-grid-snake.svg
+          outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Push to output branch
-        uses: actions/upload-artifact@v3
-        with:
-          name: snake-svg
-          path: dist/github-contribution-grid-snake.svg
+      - name: Commit generated snake to output branch
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # make sure we are writing the generated file into the output branch
+          git checkout -B output
+          mkdir -p output
+          mv -f dist/github-contribution-grid-snake.svg output/github-contribution-grid-snake.svg
+          git add output/github-contribution-grid-snake.svg
+          if git diff --staged --quiet; then
+            echo "No snake changes to commit"
+          else
+            git commit -m "chore: update contribution snake (generated)"
+            # push using the default GITHUB_TOKEN permissions
+            git push origin output --force-with-lease
+          fi
