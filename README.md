@@ -11,13 +11,46 @@
 </div>
 
 # <div align="center">☁️ J Rishikesh — SkySentinel-AI</div>
-### <div align="center">DevSecOps • Cloud Security • AI-Driven Defense</div>
+### <div align="center">Senior Cloud Security • DevSecOps • AI-Driven Defense</div>
 <div align="center"><i>“AI-Driven Cloud Security is the future — and I’m building it.”</i></div>
 
 ---
 
-# ✨ Featured Visuals
+# 🧑‍💻 About Me (Professional Summary)
+Cloud Security Engineer specializing in **defensive automation, threat detection, and secure cloud architecture** across AWS, GCP, Azure, and IBM Cloud.
 
+I design **zero-trust, automated, AI-assisted security systems** using:
+
+- 🔐 Identity / Access / Secret Governance  
+- 🔄 Automated Threat Mitigation  
+- 🧠 Multi-Agent AI Security Models  
+- 📡 Cloud-native Observability & Forensics  
+- 🐳 Container Security & Microservices Hardening  
+
+My mission: **Build intelligent, self-defending cloud systems.**
+
+---
+
+# 🎓 Core Certifications & Skills
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/AWS-Security_Specialty-ff9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/GCP-Professional_Cloud_Security_Engineer-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+<img src="https://img.shields.io/badge/AZURE-Security_Engineer_Associate-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/CKS-Kubernetes_Security_Expert-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Threat_Detection-AI/ML-8000ff?style=for-the-badge&logo=opencv&logoColor=white" />
+<img src="https://img.shields.io/badge/Container_Security-Docker%7CK8s-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Observability-Prometheus%7CGrafana-eb4034?style=for-the-badge&logo=grafana&logoColor=white" />
+
+</div>
+
+---
+
+# ✨ Featured Visuals
 <p align="center">
   <a href="https://github.com/SkySentinel-AI">
     <img src="assets/featured-projects.png" width="88%" />
@@ -44,44 +77,37 @@
 
 ---
 
-# 📊 GitHub Analytics (LIVE ONLY — No Static Images)
-
+# 📊 GitHub Analytics (LIVE ONLY)
 <div align="center">
 
-  <!-- Real-time GitHub Profile Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight&hide_border=true" width="55%" />
+<img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight&hide_border=true" width="55%" />
 
-  <!-- Real-time Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight&hide_border=true" width="38%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight&hide_border=true" width="38%" />
 
-  <!-- Live Contribution Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SkySentinel-AI&theme=react-dark&hide_border=true&area=true" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SkySentinel-AI&theme=react-dark&hide_border=true&area=true" width="95%" />
 
 </div>
 
 ---
 
-# 🚀 Project Summary (Senior Cloud Security Level)
+# 🚀 Project Summary
 
 ## **TriCloudSentinel — AI Multi-Agent Threat Detection**
-A fully containerized, AI-powered cloud defense platform featuring:
-
-- 🔥 Three independent ML/rule-based Python detection agents  
-- 🧠 Ensemble engine using sliding-window threat scoring  
-- 🔐 Auto-remediation Safety Gate (Azure / GCP / IBM simulation)  
-- 📡 Prometheus `/metrics` endpoint + optional Grafana Cloud  
-- 🐳 Docker Compose microservices with clean CI-ready structure  
+- 🔥 3 Python detection agents (independent microservices)  
+- 🧠 Ensemble threat scoring (60s sliding window)  
+- 🔐 Safety Gate auto-remediation (Azure / GCP / IBM simulation)  
+- 📡 Prometheus metrics + optional Grafana Cloud  
+- 🐳 Docker Compose microservice architecture  
 
 ### **Featured Projects**
-1. **fail2ban-aws** — automated cloud threat blocking (real PoC)  
-2. **TriCloudSentinel** — multi-agent ensemble + Prometheus Observability  
+1. **fail2ban-aws** — real cloud-based malicious IP blocking  
+2. **TriCloudSentinel** — ensemble detection + observability pipeline  
 
 ---
 
 # 🛠️ Quick Local Setup
-
 ```bash
-# start everything
+# start all services
 docker compose up -d --force-recreate --build
 
 # check running containers
@@ -103,3 +129,4 @@ curl -i http://localhost:9000/metrics
   </a>
 </p>
 ```
+---
