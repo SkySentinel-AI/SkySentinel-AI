@@ -38,5 +38,5 @@ jobs:
             echo "No changes"
           else
             git commit -m "chore: update snake"
-            git push origin output --force-with-lease
+            git push origin output --force-with-leasese
           fi
