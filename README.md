@@ -4,7 +4,7 @@
 
 # 🜁 About Me
 
-Senior-level **Cloud Security / Cybersecurity Engineer** focused on designing secure, scalable, and automation-driven cloud environments across **AWS, Azure, GCP, and IBM Cloud**.
+**Cloud Security / Cybersecurity Engineer** focused on designing secure, scalable, and automation-driven cloud environments across **AWS, Azure, GCP, and IBM Cloud**.
 
 Specialized in:
 
