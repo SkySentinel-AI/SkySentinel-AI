@@ -11,12 +11,13 @@
 </div>
 
 # <div align="center">☁️ J Rishikesh — SkySentinel-AI</div>
-### <div align="center">DevSecOps • Cloud Security • AI-Driven Defensive Systems</div>
+### <div align="center">DevSecOps • Cloud Security • AI-Driven Defense</div>
 <div align="center"><i>“AI-Driven Cloud Security is the future — and I’m building it.”</i></div>
 
 ---
 
 # ✨ Featured Visuals
+
 <p align="center">
   <a href="https://github.com/SkySentinel-AI">
     <img src="assets/featured-projects.png" width="88%" />
@@ -43,37 +44,37 @@
 
 ---
 
-# 📊 GitHub Analytics (Live + Custom)
-<p align="center">
-  <img src="assets/github-analytics.png" width="88%" />
-</p>
+# 📊 GitHub Analytics (LIVE ONLY — No Static Images)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight" width="60%" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight" width="42%" />
-</p>
+  <!-- Real-time GitHub Profile Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight&hide_border=true" width="55%" />
 
-<p align="center">
+  <!-- Real-time Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight&hide_border=true" width="38%" />
+
+  <!-- Live Contribution Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=SkySentinel-AI&theme=react-dark&hide_border=true&area=true" width="95%" />
-</p>
+
+</div>
 
 ---
 
-# 🚀 Project Summary
+# 🚀 Project Summary (Senior Cloud Security Level)
 
 ## **TriCloudSentinel — AI Multi-Agent Threat Detection**
-- Three independent Python detection agents  
-- Ensemble engine (60s sliding-window threat scoring)  
-- Safety Gate auto-remediation simulation (Azure/GCP/IBM)  
-- Prometheus `/metrics` + optional Grafana Cloud  
-- Docker Compose microservice architecture  
+A fully containerized, AI-powered cloud defense platform featuring:
+
+- 🔥 Three independent ML/rule-based Python detection agents  
+- 🧠 Ensemble engine using sliding-window threat scoring  
+- 🔐 Auto-remediation Safety Gate (Azure / GCP / IBM simulation)  
+- 📡 Prometheus `/metrics` endpoint + optional Grafana Cloud  
+- 🐳 Docker Compose microservices with clean CI-ready structure  
 
 ### **Featured Projects**
-1. **fail2ban-aws** — automated cloud threat blocking (PoC)  
-2. **TriCloudSentinel** — multi-agent ensemble + metrics  
+1. **fail2ban-aws** — automated cloud threat blocking (real PoC)  
+2. **TriCloudSentinel** — multi-agent ensemble + Prometheus Observability  
 
 ---
 
@@ -85,6 +86,10 @@ docker compose up -d --force-recreate --build
 
 # check running containers
 docker compose ps
+
+# verify system health
+curl -i http://localhost:9000/health
+curl -i http://localhost:9000/metrics
 
 ---
 
