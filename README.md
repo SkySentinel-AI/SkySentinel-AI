@@ -1,95 +1,78 @@
-
-<div align="center"><i>“Secure architecture is not a feature — it is a discipline.”</i></div>
-
----
-
-<div align="center">
-
-<!-- Multi-Cloud Badges -->
-<img src="https://img.shields.io/badge/AWS-Cloud_Security-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure-Cloud_Security-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/GCP-Cloud_Security-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-<img src="https://img.shields.io/badge/IBM_Cloud-Cloud_Security-1261FE?style=for-the-badge&logo=ibmcloud&logoColor=white" />
-<br/>
-
-<!-- Security Domain Badges -->
-<img src="https://img.shields.io/badge/DevSecOps-Secure_CI/CD-000000?style=for-the-badge&logo=githubactions&logoColor=white" />
-<img src="https://img.shields.io/badge/Zero_Trust-Architecture-8A2BE2?style=for-the-badge&logo=databricks&logoColor=white" />
-<img src="https://img.shields.io/badge/Threat_Detection-AI_Enhanced-FF0033?style=for-the-badge&logo=tensorflow&logoColor=white" />
-
-</div>
+<div align="center"><i>“Security is not reactive — it is engineered.”</i></div>
 
 ---
 
 # 🜁 About Me
 
-Cloud Security Engineer specializing in secure architectures, identity governance, and AI-driven threat detection across **AWS, Azure, GCP, and IBM Cloud**.
+Senior-level **Cloud Security / Cybersecurity Engineer** focused on designing secure, scalable, and automation-driven cloud environments across **AWS, Azure, GCP, and IBM Cloud**.
 
-I build security systems that combine:
+Specialized in:
 
-- Zero-Trust security design  
-- IAM & PAM governance  
-- Cloud-native threat detection & auto-response  
-- Secure CI/CD (DevSecOps)  
-- Infrastructure as Code  
-- Kubernetes & container security  
-- Multi-cloud observability + telemetry  
+- Cloud Architecture Security  
+- Identity Governance (IAM / PAM)  
+- Zero-Trust Design  
+- Threat Detection & Response  
+- DevSecOps & Secure Engineering  
+- Infrastructure as Code (Terraform)  
+- Container & Kubernetes Security  
+- Observability + Security Telemetry  
 
-My goal is simple: **create systems that adapt to threats — not react after damage.**
+I build defensive systems that **scale, automate, and adapt** to real-world threats.
 
 ---
 
-# 🛡️ Technical Domains
+# 🛡️ Core Competencies
 
-### **Cloud Security**
-- Network isolation, WAF, private endpoints  
-- KMS / Key Vault / Secrets Manager  
+### **Cloud Security (AWS • Azure • GCP • IBM)**
+- VPC/network segmentation, WAF, private endpoints  
+- Secrets management & encryption (KMS / Key Vault / SM)  
 - GuardDuty • Security Hub • Azure Defender • SCC  
-- Logging pipelines • Detection rules • Alerting  
+- Cloud-native detection rules & event pipelines  
 
-### **DevSecOps**
-- Terraform (with policy-as-code enforcement)  
-- CI/CD security with GitHub Actions  
-- Trivy, Grype, tfsec  
-- Container & Kubernetes hardening  
+### **DevSecOps & Automation**
+- Terraform with policy-as-code  
+- GitHub Actions security pipelines  
+- IaC scanning: tfsec, Checkov  
+- Image scanning: Trivy, Grype  
+- Secure containers & workload hardening  
 
 ### **Threat Detection & Response**
-- Multi-agent detection models  
-- Anomaly scoring + behavior analysis  
-- Auto-remediation flows  
-- Prometheus metrics + Grafana dashboards  
+- Multi-agent anomaly detection  
+- Behavioral scoring models  
+- Automated mitigation flows  
+- Prometheus metrics, Grafana dashboards  
 
 ---
 
-# 🚀 Projects
+# 🚀 Key Projects
 
 ## **TriCloudSentinel — Multi-Cloud AI Threat Detection**
-A distributed multi-agent system for real-time cloud threat scoring.
+Distributed threat-detection system across AWS, Azure, GCP, IBM.
 
 Includes:  
-- 3 independent ML/security detection agents  
-- Sliding-window ensemble engine  
-- Auto-remediation gate  
-- Prometheus `/metrics`  
-- Docker Compose orchestration  
+- 3 autonomous detection agents  
+- Sliding-window ensemble scoring  
+- Auto-remediation logic  
+- `/metrics` for Prometheus  
+- Fully containerized via Docker Compose  
 
 🔗 https://github.com/SkySentinel-AI/TriCloudSentinel-demo
 
 ---
 
 ## **fail2ban-aws — Automated Cloud Threat Blocking**
-Event-driven detection + automatic malicious IP blocking via AWS Security Groups.
+Lightweight PoC that detects malicious activity and blocks hostile IPs via AWS Security Groups.
 
-Features:  
-- Suspicious activity detection  
-- Auto IP blocking  
-- Lightweight • Cloud-ready  
+Includes:  
+- Event-driven log detection  
+- Automatic IP blocking  
+- Cloud-native + minimal footprint  
 
 🔗 https://github.com/SkySentinel-AI/fail2ban-aws
 
 ---
 
-# 📊 Live GitHub Analytics (Dark Mode)
+# 📊 GitHub Activity (Dark Mode)
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=algolia&hide_border=true" width="55%" />
@@ -105,13 +88,13 @@ Features:
 
 ---
 
-# 🛠️ Quick Local Setup
+# 🛠️ Local Setup (for TriCloudSentinel)
 
 ```bash
 docker compose up -d --force-recreate --build
 docker compose ps
 
-# Health Check
+# Health
 curl http://localhost:9000/health
 
 # Metrics
@@ -120,7 +103,7 @@ curl http://localhost:9000/metrics
 
 ---
 
-# 🤝 Connect With Me
+# 🤝 Connect
 
 <p align="center">
   <a href="https://linkedin.com/in/j-r-306ba635b">
