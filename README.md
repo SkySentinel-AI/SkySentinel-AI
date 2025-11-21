@@ -122,11 +122,12 @@ curl http://localhost:9000/metrics
 # 🤝 **Connect With Me**
 
 <p align="center">
-  <a href="https://linkedin.com/in/j-r-306ba635b">
-    <img src="https://img.icons8.com/?size=512&id=13930&format=png" width="50"/>
+  <a href="https://linkedin.com/in/j-r-306ba635b" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="48" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:jogdandrishikesh05@gmail.com">
-    <img src="https://img.icons8.com/?size=512&id=YGGgRn2Q8qem&format=png" width="50"/>
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="48" />
   </a>
 </p>
+```
