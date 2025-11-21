@@ -1,11 +1,12 @@
 
-<!-- ✦ CYBERPUNK HEADER ✦ -->
+<!-- ✦ CYBERPUNK ANIMATED HEADER ✦ -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3200&pause=900&color=00F0FF&center=true&vCenter=true&width=700&lines=Cloud+Security+Engineer;DevSecOps+%7C+Threat+Detection+%7C+Automation;Multi-Cloud+%7C+AI-Driven+Defense;Security+Is+Architecture+Not+Reaction." />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3200&pause=900&color=00F0FF&center=true&vCenter=true&width=780&lines=Cloud+Security+Engineer;DevSecOps+%7C+Threat+Detection+%7C+Automation;Multi-Cloud+Security+(AWS+Azure+GCP+IBM);AI-Driven+Defense+Systems;Building+Secure+Cloud+Architectures." />
 </p>
 
+<!-- MULTI-CLOUD BADGES -->
 <div align="center">
-  
+
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/AZURE-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
@@ -20,73 +21,100 @@
 
 ---
 
-<p align="center">
-  <img src="https://github.com/SkySentinel-AI/SkySentinel-AI/raw/main/assets/main-banner.png" width="100%" />
+# ⚡ **About Me**
+
+Cloud Security Engineer building **secure, resilient and intelligent** architectures across AWS, Azure, GCP & IBM.
+
+Specialized in:
+- Zero-Trust Architectures  
+- IAM / PAM Governance  
+- Secure CI/CD + Policy-as-Code  
+- Container & Kubernetes Security  
+- Threat Detection (AI + Metrics + Rules)  
+- Observability & Security Telemetry  
+- Multi-cloud automation & enforcement  
+
+> I build defensive systems that **detect early, respond instantly, and fail safely**.
+
+---
+
+# 🎛️ **Animated Skill Bars (Cyber Mode)**
+
+### 🛡️ Cloud Security
+<p align="left">
+  <img src="https://img.shields.io/badge/-AWS-000?style=flat&logo=amazonaws&logoColor=FF9900"/>  
+  <img src="https://progress-bar.dev/90/?width=400&color=00F0FF&title=AWS+Security" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/-Azure-000?style=flat&logo=microsoftazure&logoColor=0089D6"/>  
+  <img src="https://progress-bar.dev/85/?width=400&color=5BC0F8&title=Azure+Security" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/-GCP-000?style=flat&logo=googlecloud&logoColor=4285F4"/>  
+  <img src="https://progress-bar.dev/80/?width=400&color=4285F4&title=GCP+Security" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/-IBM_Cloud-000?style=flat&logo=ibm&logoColor=1261FE"/>  
+  <img src="https://progress-bar.dev/70/?width=400&color=1261FE&title=IBM+Cloud+Security" />
 </p>
 
 ---
 
-# ⚡ **About Me**
+### ⚙️ DevSecOps
+<p align="left">
+  <img src="https://progress-bar.dev/92/?width=400&color=00FFB7&title=CI%2FCD+Security" />
+</p>
 
-Cloud Security Engineer focused on:
+<p align="left">
+  <img src="https://progress-bar.dev/88/?width=400&color=00A3FF&title=Terraform+%2F+Policy-as-Code" />
+</p>
 
-- Zero-Trust Cloud Architecture  
-- IAM / PAM Governance  
-- Container & Kubernetes Security  
-- Threat Detection (Agents + AI/ML)  
-- SIEM / Security Analytics  
-- DevSecOps Automation  
-- Multi-Cloud Observability Pipelines  
+<p align="left">
+  <img src="https://progress-bar.dev/85/?width=400&color=B45EFF&title=Kubernetes+Security" />
+</p>
 
-I build **defensive systems that self-heal, self-detect, and auto-respond.**
+<p align="left">
+  <img src="https://progress-bar.dev/80/?width=400&color=FF3CAC&title=Image+%2F+IaC+Scanning" />
+</p>
 
 ---
 
-# 🛡️ **Core Security Domains**
+### 🧠 Threat Detection
+<p align="left">
+  <img src="https://progress-bar.dev/90/?width=400&color=FF007F&title=Multi-Agent+Detection" />
+</p>
 
-### 🔐 *Cloud Security Engineering*
-- VPC segmentation, WAF, private links  
-- Encryption lifecycle (KMS / Key Vault / CMEK)  
-- GuardDuty, Security Hub, Defender for Cloud, SCC  
-- Cross-cloud detection rules  
+<p align="left">
+  <img src="https://progress-bar.dev/87/?width=400&color=09FBD3&title=Anomaly+Scoring" />
+</p>
 
-### ⚙️ *DevSecOps*
-- Terraform (OPA / Sentinel policy enforcement)  
-- GitHub Actions secured pipelines  
-- Image scanning: Trivy, Grype  
-- IaC scanning: tfsec, Checkov  
-
-### 🧠 *Threat Detection*
-- Multi-agent anomaly detection systems  
-- Ensemble scoring models  
-- Automated mitigation logic  
-- Prometheus metrics + Grafana dashboards  
+<p align="left">
+  <img src="https://progress-bar.dev/85/?width=400&color=F9F871&title=Auto-Remediation" />
+</p>
 
 ---
 
 # 🚀 **Projects**
 
 ## 🔥 **TriCloudSentinel — Multi-Cloud AI Threat Detection**
-A distributed multi-agent detection system analyzing signals across AWS, Azure, GCP, IBM.
+A distributed multi-cloud detection pipeline with:
 
-Features:
 - 3 autonomous detection agents  
-- Ensemble scoring (sliding window)  
+- Sliding-window ensemble engine  
 - Auto-remediation module  
 - `/metrics` endpoint (Prometheus)  
+- Grafana dashboard support  
 - Docker Compose microservices  
 
 🔗 https://github.com/SkySentinel-AI/TriCloudSentinel-demo
 
 ---
 
-## 🛡️ **fail2ban-aws — Automated IP Blocking**
-Detect suspicious events → auto-block malicious IPs via Security Groups.
-
-Features:
-- Event-driven log detection  
-- Automated blocking  
-- Lightweight cloud-ready agent  
+## 🛡️ **fail2ban-aws — Automated Cloud IP Blocking**
+Event-driven detection pipeline that blocks malicious IPs via AWS security groups.
 
 🔗 https://github.com/SkySentinel-AI/fail2ban-aws
 
@@ -120,14 +148,14 @@ curl http://localhost:9000/metrics
 
 ---
 
-# 🤝 **Connect With Me**
+# 🤝 **Connect With Me** (100% working icons)
 
 <p align="center">
   <a href="https://linkedin.com/in/j-r-306ba635b">
-    <img src="https://img.icons8.com/?size=512&id=13930&format=png" width="50"/>
+    <img src="https://img.icons8.com/ios-filled/100/4BFFFF/linkedin.png" width="50"/>
   </a>
   &nbsp;&nbsp;
   <a href="mailto:jogdandrishikesh05@gmail.com">
-    <img src="https://img.icons8.com/?size=512&id=YGGgRn2Q8qem&format=png" width="50"/>
+    <img src="https://img.icons8.com/ios-filled/100/4BFFFF/email-open.png" width="50"/>
   </a>
 </p>
