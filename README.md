@@ -1,78 +1,108 @@
-<!-- README v5 - SkySentinel-AI -->
-
 <p align="center">
-  <img src="assets/main-banner.png" alt="Main Banner" width="100%"/>
+  <a href="https://github.com/SkySentinel-AI/TriCloudSentinel-demo">
+    <img src="assets/main-banner.png" alt="Main Banner" width="100%"/>
+  </a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/DEVSECOPS-EXPERT-000?style=for-the-badge&logo=dependabot&logoColor=white" alt="DevSecOps"/>
-  <img src="https://img.shields.io/badge/CLOUDSECURITY-AWS%7CGCP%7CAZURE%7CIBM-0059ff?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloud"/>
-  <img src="https://img.shields.io/badge/AI_AUTOMATION-THREAT_DETECTION-f00000?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI"/>
-</p>
+<div align="center">
+  <img src="https://img.shields.io/badge/DEVSECOPS-ELITE-000?style=for-the-badge&logo=dependabot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CLOUD_SECURITY-AWS%7CGCP%7CAZURE%7CIBM-0059ff?style=for-the-badge&logo=cloudflare&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI_AUTOMATION-THREAT_DETECTION-f00000?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+</div>
 
-# ☁️ J Rishikesh | SkySentinel-AI  
-**DevSecOps • Cloud Security Engineer • AI-Driven Defensive Systems**
+# <div align="center">☁️ J Rishikesh — SkySentinel-AI</div>
+### <div align="center">DevSecOps • Cloud Security Engineer • AI-Driven Cloud Defense</div>
 
-> _“AI-Driven Cloud Security is the future — and I’m building it.”_
+> <div align="center">_“AI-Driven Cloud Security is the future — and I’m building it.”_</div>
 
 ---
 
-## 🔥 Featured Visuals (replace/upgrade whenever you like)
+# <div align="center">✨ Featured Visuals</div>
+
 <p align="center">
-  <img src="assets/featured-projects.png" alt="Featured Projects" width="88%"/>
+  <a href="https://github.com/SkySentinel-AI/featured-projects">
+    <img src="assets/featured-projects.png" width="88%"/>
+  </a>
 </p>
 
 <p align="center">
-  <img src="assets/fail2ban-aws.png" alt="Fail2Ban AWS Project" width="88%"/>
+  <a href="https://github.com/SkySentinel-AI/fail2ban-aws">
+    <img src="assets/fail2ban-aws.png" width="88%"/>
+  </a>
 </p>
 
 <p align="center">
-  <img src="assets/tricloudsentinel-banner.png" alt="TriCloudSentinel Project" width="88%"/>
+  <a href="https://github.com/SkySentinel-AI/TriCloudSentinel-demo">
+    <img src="assets/tricloudsentinel-banner.png" width="88%"/>
+  </a>
 </p>
 
 <p align="center">
-  <img src="assets/tech-stack.png" alt="Tech Stack" width="90%"/>
+  <a href="https://github.com/SkySentinel-AI">
+    <img src="assets/tech-stack.png" width="90%"/>
+  </a>
 </p>
 
 <p align="center">
-  <img src="assets/currently-building.png" alt="Currently Building" width="85%"/>
-</p>
-
-<p align="center">
-  <!-- Contribution snake served from output branch -->
-  <img src="https://raw.githubusercontent.com/SkySentinel-AI/SkySentinel-AI/output/github-contribution-grid-snake.svg" alt="contribution-snake" width="85%"/>
-</p>
-
-<p align="center">
-  <img src="assets/live-activity-heatmap.png" alt="Live activity heatmap" width="85%"/>
+  <img src="assets/currently-building.png" width="85%"/>
 </p>
 
 ---
 
-## 📌 Quick Project Summary
-**TriCloudSentinel** — AI-Driven Multi-Agent Threat Detection (demo)
-- 3 independent Python detection agents (containerized)
-- Central **Ensemble** engine: 60s sliding window, average threat scoring
-- **Safety Gate**: simulated auto-remediation (Azure/GCP/IBM)
-- Observability via **Prometheus** (scrapes `/metrics`) and **Grafana Cloud** (remote_write)
-- Orchestrated by Docker Compose
+# <div align="center">📊 GitHub Analytics & Live Visuals</div>
 
-**Featured demo projects**
-1. `Fail2Ban AWS` — automated IP blocking PoC.  
-2. `TriCloudSentinel` — multi-agent ensemble + metrics.
+<p align="center">
+  <img src="assets/github-analytics.png" width="88%" alt="GitHub Analytics"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SkySentinel-AI/SkySentinel-AI/output/github-contribution-grid-snake.svg" width="85%" alt="contribution-snake"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SkySentinel-AI/SkySentinel-AI/output/live-activity-heatmap.png" width="85%" alt="live-activity-heatmap"/>
+</p>
 
 ---
 
-## 🚀 How to run (local)
-From repo root:
+# <div align="center">🔥 Quick Project Summary</div>
+
+### **TriCloudSentinel — AI Multi-Agent Threat Detection**
+- 3 autonomous detection agents (containerized)
+- Ensemble AI scoring (60s rolling window)
+- Safety Gate auto-remediation (Azure / GCP / IBM)
+- Prometheus Metrics + Grafana Cloud remote_write
+- Docker Compose orchestration
+
+### **Fail2ban AWS**
+- Cloud-based IP blocking automation  
+- Event → Detect → Block flow  
+- Lightweight security PoC for cloud hosts
+
+---
+
+# <div align="center">🛠️ Run Locally</div>
 
 ```bash
-# 1) bring up everything
 docker compose up -d --force-recreate --build
 
-# 2) confirm services
 docker compose ps
 
-# 3) verify ensemble health + endpoints
-curl -i http://localhost:9000/health      
+# ensemble health + metrics
+curl -i http://localhost:9000/health
 curl -i http://localhost:9000/metrics
+```
+
+---
+
+# <div align="center">📬 Connect With Me</div>
+
+<p align="center">
+  <a href="https://linkedin.com/in/j-r-306ba635b">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="48"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:jogdandrishikesh05@gmail.com">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="48"/>
+  </a>
+</p>
