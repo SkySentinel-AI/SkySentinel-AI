@@ -1,134 +1,126 @@
-<!-- ✦ CYBERPUNK HEADER ✦ -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3200&pause=900&color=00F0FF&center=true&vCenter=true&width=700&lines=Cloud+Security+Engineer;DevSecOps+%7C+Threat+Detection+%7C+Automation;Multi-Cloud+%7C+AI-Driven+Defense;Security+Is+Architecture+Not+Reaction." />
-</p>
+<!-- ------------------------------------------- -->
+<!--       V47 — SENIOR CLOUD ENGINEER README    -->
+<!-- ------------------------------------------- -->
 
-<div align="center">
-
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/AZURE-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![IBM](https://img.shields.io/badge/IBM_Cloud-1261FE?style=for-the-badge&logo=ibm&logoColor=white)
-
-![DevSecOps](https://img.shields.io/badge/DEVSECOPS-000?style=for-the-badge&logo=dependabot&logoColor=00F0FF)
-![Zero Trust](https://img.shields.io/badge/ZERO--TRUST-111?style=for-the-badge&logo=trustpilot&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/KUBERNETES-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/TERRAFORM-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
-
-</div>
-
----
+<h1 align="center">☁️ Senior Cloud Engineer</h1>
 
 <p align="center">
-  <img src="https://github.com/SkySentinel-AI/SkySentinel-AI/raw/main/assets/main-banner.png" width="100%" />
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/IBM_Cloud-1261FE?style=for-the-badge&logo=ibmcloud&logoColor=white"/>
 </p>
 
----
-
-# ⚡ About Me
-
-Cloud Security Engineer specializing in secure, automated, and observable cloud-native architectures across **AWS, Azure, GCP & IBM Cloud**.
-
-I focus on:
-
-- Zero-Trust Cloud Architecture  
-- IAM / PAM Governance  
-- Threat Detection (Agent-based + AI-assisted)  
-- DevSecOps Automation & Secure CI/CD  
-- Container & Kubernetes Security  
-- Multi-Cloud Observability & SIEM Pipelines  
-
-My goal is to build **security architectures that self-detect, self-heal, and auto-respond**.
+<div align="center"><i>“Security is architecture — not reaction.”</i></div>
 
 ---
 
-# 🛡️ Core Security Domains
+# 🛡️ About Me
 
-### 🔐 Cloud Security Engineering  
-- VPC segmentation, WAF, Private Endpoints  
-- Encryption lifecycle (KMS, Key Vault, CMEK)  
-- GuardDuty, Security Hub, Defender for Cloud, SCC  
-- Multi-cloud detection pipelines  
+Senior Cloud Engineer designing secure, scalable, and automated cloud environments across **AWS, Azure, GCP, and IBM Cloud**.
 
-### ⚙️ DevSecOps  
-- Terraform (OPA / Sentinel / Policies)  
-- GitHub Actions secured pipelines  
-- Image scanning: **Trivy, Grype**  
-- IaC scanning: **tfsec, Checkov**  
+I specialize in:
 
-### 🧠 Threat Detection  
-- Multi-agent anomaly detection  
-- Ensemble scoring (behaviour + rules)  
-- Auto-remediation logic  
-- Prometheus metrics + Grafana dashboards  
+- Cloud Infrastructure Architecture (multi-cloud)  
+- IAM / PAM security hardening  
+- Network segmentation, WAF, private endpoints  
+- Cloud-native threat detection & automated response  
+- DevSecOps pipelines with security gates  
+- Kubernetes & container security  
+- Observability + telemetry pipelines (SIEM-ready)
+
+My focus: **build cloud systems that are secure by design and automated by default.**
+
+---
+
+# ⚙️ Core Engineering Domains
+
+### ☁️ Cloud Infrastructure & Security
+- VPC/VNet design • Private endpoints • Zero-trust routing  
+- Security Hub • GuardDuty • Azure Defender • SCC  
+- Encryption lifecycle (AWS KMS / Azure KV / GCP KMS)
+
+### 🔐 IAM / Zero Trust
+- RBAC / ABAC / IAM boundaries  
+- MFA enforcement  
+- Privilege-hardening & continuous verification
+
+### 🔧 DevSecOps & Automation
+- Terraform (with policy-as-code)  
+- Secure CI/CD (GitHub Actions)  
+- Trivy, tfsec, Grype scanning  
+- Kubernetes governance + workload hardening
 
 ---
 
 # 🚀 Projects
 
-## 🔥 TriCloudSentinel — Multi-Cloud AI Threat Detection  
-A distributed threat-detection system with ensemble scoring and auto-remediation.
+## 🔥 TriCloudSentinel — Multi-Cloud AI Threat Detection
+AI-driven multi-agent detection system for security signals across AWS, Azure, GCP & IBM.
 
-Features:
-- 3 autonomous detection agents  
-- AI-assisted scoring  
+**Features**
+- 3 autonomous Python detection agents  
+- Sliding-window ensemble scoring  
 - Auto-remediation engine  
-- `/metrics` endpoint (Prometheus)  
-- Docker Compose microservices  
+- `/metrics` endpoint for Prometheus  
+- Containerized architecture (Docker Compose)
 
-🔗 **https://github.com/SkySentinel-AI/TriCloudSentinel-demo**
+🔗 https://github.com/SkySentinel-AI/TriCloudSentinel-demo
 
 ---
 
-## 🛡️ fail2ban-aws — Automated IP Blocking (Cloud)  
-Suspicious logs → automatic blocking of malicious IPs using AWS Security Groups.
+## 🛡️ fail2ban-aws — Automated Cloud IP Blocking  
+Lightweight agent that detects suspicious log events and auto-blocks malicious IPs using AWS Security Groups.
 
-Features:
-- Log monitoring  
-- Suspicious event detection  
-- Automated IP blocking  
-- Lightweight & cloud-ready  
-
-🔗 **https://github.com/SkySentinel-AI/fail2ban-aws-project**
+🔗 https://github.com/SkySentinel-AI/fail2ban-aws-project
 
 ---
 
 # 📊 Live GitHub Analytics (Dark Mode — Stable)
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SkySentinel-AI&theme=tokyonight&hide_border=true" width="60%" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight&hide_border=true" 
+    width="55%"
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight&hide_border=true" width="55%" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight&hide_border=true" 
+    width="40%"
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight&hide_border=true" width="40%" />
+  <img 
+    src="https://github-readme-activity-graph.vercel.app/graph?username=SkySentinel-AI&theme=react-dark&hide_border=true&area=true" 
+    width="95%"
+  />
 </p>
 
 ---
 
-# 🛠️ Run Locally
+# 🛠️ Run Locally (For TriCloudSentinel)
 
 ```bash
 docker compose up -d --force-recreate --build
 docker compose ps
 
-# Health
-curl http://localhost:9000/health
+curl http://localhost:9000/health     # health check
+curl http://localhost:9000/metrics    # Prometheus metrics
+```
 
-# Metrics
-curl http://localhost:9000/metrics
 ---
+
+# 🤝 Connect With Me
 
 <p align="center">
   <a href="https://linkedin.com/in/j-r-306ba635b" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="48" />
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="48"/>
   </a>
   &nbsp;&nbsp;
   <a href="mailto:jogdandrishikesh05@gmail.com">
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="48" />
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="48"/>
   </a>
 </p>
-```
