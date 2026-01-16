@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Rishikesh Ajay Jogdand</h1>
-  <p><b>Cloud & DevSecOps Engineer | Multi-Cloud Security | GenAI Implementation</b></p>
+  <p><b>Cloud & DevSecOps Engineer | Multi-Cloud Security | GenAI Architecture</b></p>
   
   <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
   <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/IBM_Cloud-1261FE?style=for-the-badge&logo=ibmcloud&logoColor=white"/>
 
   <p align="center">
-    <i>"Security is a foundational architectural pillar, not an afterthought."</i>
+    <i>"Building resilient, self-healing, and secure cloud infrastructure through code."</i>
   </p>
 </div>
 
@@ -20,7 +20,7 @@ Cloud / DevSecOps Engineer specialized in designing **secure, automated, and AI-
 
 * **Engineering Philosophy:** Security-by-Design, Policy-as-Code, and Immutable Infrastructure.
 * **Methodology:** Prioritizing high-quality documentation, clean code, and long-term maintainability.
-* **Global Collaboration:** Experienced in working within structured, high-output engineering teams.
+* **Collaboration:** Experienced in working within structured, globally distributed engineering teams.
 
 ---
 
@@ -30,24 +30,24 @@ Cloud / DevSecOps Engineer specialized in designing **secure, automated, and AI-
 | :--- | :--- |
 | **Cloud Platforms** | AWS, Azure, GCP, IBM Cloud (VPC, IAM, Private Link) |
 | **Security Operations** | GuardDuty, Defender for Cloud, Sentinel, SCC, Key Protect |
-| **Generative AI** | Google Cloud Gen AI (Vertex AI), Beyond-Chatbot Implementations |
+| **Generative AI** | Google Cloud Gen AI (Vertex AI), LLM Integration |
 | **Infrastructure as Code** | Terraform, OpenTofu, CloudFormation, Bicep |
-| **DevSecOps / CI-CD** | GitHub Actions, GitLab CI, Trivy, Checkov, tfsec, Grype |
+| **DevSecOps / CI-CD** | GitHub Actions, Trivy, Checkov, tfsec, Grype |
 | **Container & K8s** | Docker, Kubernetes, Kyverno, Cilium, Helm |
 
 ---
 
 ## 🎓 Professional Certifications
 
-* **[span_2](start_span)[Introduction to Security Principles in Cloud Computing](https://coursera.org/verify/IKT4FFWIDOUU)** – Authorized by Google Cloud[span_2](end_span)
-* **[span_3](start_span)[Gen AI: Beyond the Chatbot](https://coursera.org/verify/3ZSHIPO0Q3R1)** – Authorized by Google Cloud[span_3](end_span)
+* **[span_2](start_span)[Introduction to Security Principles in Cloud Computing](https://coursera.org/verify/IKT4FFWIDOUU)** – Authorized by Google Cloud Training[span_2](end_span)
+* **[span_3](start_span)[Gen AI: Beyond the Chatbot](https://coursera.org/verify/3ZSHIPO0Q3R1)** – Authorized by Google Cloud Training[span_3](end_span)
 
 ---
 
 ## 🚀 Featured Open Source Projects
 
 ### 🛡️ [TriCloudSentinel](https://github.com/SkySentinel-AI/TriCloudSentinel-demo) — Multi-Cloud Security Aggregator
-* **The Problem:** Managing fragmented security alerts across 4 major cloud providers.
+* **The Problem:** Fragmented security alerts across 4 major cloud providers.
 * **The Solution:** A unified detection engine using ensemble scoring to reduce alert fatigue.
 * **Tech Stack:** Python, Docker, Prometheus, Multi-Cloud APIs.
 
@@ -57,12 +57,14 @@ Cloud / DevSecOps Engineer specialized in designing **secure, automated, and AI-
 
 ---
 
-## 📊 Engineering Activity
+## 📊 Engineering Focus Metrics
+*A representation of core professional competencies and focus areas.*
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight&hide=html,css" alt="Top Languages" height="180" />
-</div>
+```text
+Cloud Security Hardening  [████████████████████] 100%
+Infrastructure-as-Code    [██████████████████▒▒] 90%
+CI/CD Pipeline Security   [████████████████▒▒▒▒] 80%
+GenAI Implementation      [██████████████▒▒▒▒▒▒] 70%
 
 ---
 
