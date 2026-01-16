@@ -54,14 +54,6 @@ I focus on building secure-by-default cloud environments that emphasize least pr
 
 ---
 
-## 📄 Documentation
-
-- [Architecture Overview](ARCHITECTURE.md)
-- [Security Considerations](SECURITY.md)
-- [Operations Guide](OPERATIONS.md)
-
----
-
 ## 🎓 Certifications
 
 - **Introduction to Security Principles in Cloud Computing**  
