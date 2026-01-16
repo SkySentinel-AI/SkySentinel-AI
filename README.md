@@ -1,9 +1,4 @@
-<!-- ================================================= -->
-<!--  Global Cloud / DevSecOps Engineer – Profile README -->
-<!--  Optimized for Japan 🇯🇵 & Germany 🇩🇪 -->
-<!-- ================================================= -->
-
-<h1 align="center">Cloud / DevSecOps Engineer</h1>
+<h1 align="center">Rishikesh Ajay Jogdand | Cloud & DevSecOps Engineer</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
@@ -13,115 +8,83 @@
 </p>
 
 <p align="center">
-  <i>Security is designed into the architecture — not added later.</i>
+  <i>"Security is a foundational architectural pillar, not an afterthought."</i><br>
+  <b>Multi-Cloud Security | Generative AI Implementation | Zero-Trust Architecture</b>
 </p>
 
 ---
 
-## 👤 About Me
+## 👤 Professional Profile
 
-Cloud / DevSecOps Engineer experienced in designing **secure, scalable, and automated cloud platforms** across **AWS, Azure, GCP, and IBM Cloud**.
+Cloud / DevSecOps Engineer specialized in designing **secure, automated, and AI-enhanced cloud ecosystems**. I bridge the gap between rapid development and strict security compliance, ensuring that infrastructure is both scalable and resilient against modern threats.
 
-My focus is on **security-by-design**, infrastructure reliability, and automation using **infrastructure as code** and **CI/CD pipelines**.  
-I prioritize **clarity, documentation, and long-term maintainability** over short-term complexity.
-
-I work comfortably in **globally distributed, structured engineering teams** and value stable systems, reviews, and continuous improvement.
-
----
-
-## 🎯 Engineering Focus
-
-- Multi-cloud infrastructure architecture  
-- Identity & access management (IAM) and Zero Trust  
-- DevSecOps pipelines with policy-as-code  
-- Cloud-native threat detection and automated response  
-- Kubernetes security and workload hardening  
-- Observability and SIEM-ready telemetry pipelines  
+* **Engineering Philosophy:** Security-by-Design, Policy-as-Code, and Immutable Infrastructure.
+* **Methodology:** Prioritizing high-quality documentation, clean code, and long-term maintainability.
+* **Global Collaboration:** Experienced in working within structured, high-output engineering teams.
 
 ---
 
-## 🧠 Core Engineering Domains
+## 🛠 Engineering Stack
 
-### ☁️ Cloud Infrastructure & Security
-- VPC / VNet / IBM VPC design, private endpoints, zero-trust routing  
-- AWS Security Hub & GuardDuty  
-- Azure Defender  
-- GCP Security Command Center (SCC)  
-- IBM Cloud Security & Compliance Center  
-- Encryption lifecycle management (AWS KMS, Azure Key Vault, GCP KMS, IBM Key Protect)  
-
----
-
-### 🔐 Identity & Access Management
-- RBAC / ABAC and IAM boundary design  
-- MFA enforcement  
-- Privilege hardening and continuous verification  
-- Least-privilege access models  
+| Domain | Technologies & Tools |
+| :--- | :--- |
+| **Cloud Platforms** | AWS, Azure, GCP, IBM Cloud (VPC, IAM, Private Link) |
+| **Security Operations** | GuardDuty, Defender for Cloud, Sentinel, SCC, Key Protect |
+| **Generative AI** | Google Cloud Gen AI (Vertex AI), Beyond-Chatbot Implementations |
+| **Infrastructure as Code** | Terraform, OpenTofu, CloudFormation, Bicep |
+| **DevSecOps / CI-CD** | GitHub Actions, GitLab CI, Trivy, Checkov, tfsec, Grype |
+| **Container & K8s** | Docker, Kubernetes, Kyverno, Cilium, Helm |
 
 ---
 
-### ⚙️ DevSecOps & Automation
-- Terraform with policy-as-code  
-- Secure CI/CD pipelines (GitHub Actions)  
-- Infrastructure & container scanning (Trivy, tfsec, Grype)  
-- Kubernetes governance and workload security  
-- Automated compliance validation  
+## 🎓 Certifications
+
+* **[span_2](start_span)Introduction to Security Principles in Cloud Computing** – Authorized by Google Cloud[span_2](end_span)
+* **[span_3](start_span)Gen AI: Beyond the Chatbot** – Authorized by Google Cloud[span_3](end_span)
 
 ---
 
-## 🚀 Selected Projects
+## 🚀 Key Open Source Projects
 
-### 🔥 TriCloudSentinel — Multi-Cloud Security Detection Platform
-AI-assisted system for processing and correlating security signals across **AWS, Azure, GCP, and IBM Cloud**.
+### 🛡️ [TriCloudSentinel](https://github.com/SkySentinel-AI/TriCloudSentinel-demo) — Multi-Cloud Security Aggregator
+**AI-Assisted Security Signal Processing**
+* **The Problem:** Managing fragmented security alerts across 4 major cloud providers.
+* **The Solution:** A unified detection engine using ensemble scoring to reduce alert fatigue.
+* **Tech:** Python, Docker, Prometheus, Multi-Cloud APIs.
 
-**Engineering Goals**
-- Centralized security signal processing  
-- Reproducible local-first architecture  
-- Monitoring- and SIEM-ready design  
-
-**Key Capabilities**
-- Distributed Python detection agents  
-- Sliding-window ensemble scoring  
-- Automated remediation logic  
-- Prometheus-compatible metrics endpoint  
-- Containerized deployment (Docker Compose)  
-
-🔗 https://github.com/SkySentinel-AI/TriCloudSentinel-demo
+### ⛓️ [fail2ban-aws](https://github.com/SkySentinel-AI/fail2ban-aws-project) — Automated IP Blocking
+**Event-Driven Perimeter Defense**
+* **The Solution:** Automated remediation that triggers AWS Security Group updates based on CloudWatch log patterns.
+* **Impact:** Real-time protection against brute-force attacks via automated serverless triggers.
 
 ---
 
-### 🛡️ fail2ban-aws — Automated Cloud IP Blocking
-Automation for detecting suspicious log activity and blocking malicious IPs using AWS Security Groups.
+## 📊 Engineering Activity
 
-- CloudWatch log monitoring  
-- Automated IP blocking  
-- CI/CD-integrated deployment  
-
-🔗 https://github.com/SkySentinel-AI/fail2ban-aws-project
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide=html,css" alt="Top Languages" height="180" />
+</p>
 
 ---
 
-## ▶️ Run Locally (TriCloudSentinel)
-
-```bash
-docker compose up -d --force-recreate --build
-docker compose ps
-
-curl http://localhost:9000/health
-curl http://localhost:9000/metrics
-
----
+## 📫 Connect with Me
 
 <p align="center">
   <a href="https://linkedin.com/in/j-r-306ba635b" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="48" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   &nbsp;&nbsp;
   <a href="mailto:jogdandrishikesh05@gmail.com">
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="48" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   &nbsp;&nbsp;
   <a href="https://x.com/RishiAIXCloud" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="48" alt="Twitter"/>
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
 </p>
+
+<p align="center">
+  <b>Available for Global Remote Roles and On-Site Engineering Opportunities.</b>
+</p>
+
