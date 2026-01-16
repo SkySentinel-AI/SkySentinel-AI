@@ -14,9 +14,9 @@
 
 ## 👤 Professional Summary
 
-Cloud / DevSecOps Engineer with experience in **multi-cloud security architecture, infrastructure automation, and platform reliability engineering**.
+Cloud / DevSecOps Engineer with experience in multi-cloud security architecture, infrastructure automation, and platform reliability engineering.
 
-I focus on building **secure-by-default cloud environments** that emphasize least privilege, operational clarity, and long-term maintainability. My work prioritizes reducing operational risk through automation, policy enforcement, and clear system design.
+I focus on building secure-by-default cloud environments that emphasize least privilege, operational clarity, and long-term maintainability. My work prioritizes reducing operational risk through automation, policy enforcement, and clear system design.
 
 ---
 
@@ -54,6 +54,14 @@ I focus on building **secure-by-default cloud environments** that emphasize leas
 
 ---
 
+## 📄 Documentation
+
+- [Architecture Overview](ARCHITECTURE.md)
+- [Security Considerations](SECURITY.md)
+- [Operations Guide](OPERATIONS.md)
+
+---
+
 ## 🎓 Certifications
 
 - **Introduction to Security Principles in Cloud Computing**  
@@ -67,6 +75,7 @@ I focus on building **secure-by-default cloud environments** that emphasize leas
 ## 🚀 Selected Projects
 
 ### 🛡️ TriCloudSentinel — Multi-Cloud Security Aggregation Platform
+
 A security aggregation system designed to centralize and normalize security findings across multiple cloud providers.
 
 - Unified ingestion of security alerts from AWS, Azure, GCP, and IBM Cloud
@@ -78,6 +87,7 @@ A security aggregation system designed to centralize and normalize security find
 ---
 
 ### ⛓️ fail2ban-aws — Automated Incident Response
+
 An automated remediation system to reduce response time to brute-force attacks on cloud workloads.
 
 - Detection of suspicious activity using CloudWatch log patterns
