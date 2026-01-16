@@ -20,23 +20,23 @@
 
 ## 👤 About Me
 
-Cloud / DevSecOps Engineer with experience designing **secure, scalable, and automated cloud environments** across **AWS, Azure, GCP, and IBM Cloud**.
+Cloud / DevSecOps Engineer experienced in designing **secure, scalable, and automated cloud platforms** across **AWS, Azure, GCP, and IBM Cloud**.
 
-I focus on **security-by-design**, infrastructure reliability, and automation using **infrastructure as code** and **CI/CD pipelines**.  
-My work emphasizes **clarity, stability, and long-term maintainability** of cloud systems.
+My focus is on **security-by-design**, infrastructure reliability, and automation using **infrastructure as code** and **CI/CD pipelines**.  
+I prioritize **clarity, documentation, and long-term maintainability** over short-term complexity.
 
-I am comfortable working in **globally distributed teams** and structured engineering environments where documentation, reviews, and continuous improvement are valued.
+I work comfortably in **globally distributed, structured engineering teams** and value stable systems, reviews, and continuous improvement.
 
 ---
 
-## 🎯 Technical Focus
+## 🎯 Engineering Focus
 
-- Multi-cloud infrastructure architecture (AWS, Azure, GCP, IBM Cloud)
-- Identity & access management (IAM) and Zero Trust principles
+- Multi-cloud infrastructure architecture
+- Identity & access management (IAM) and Zero Trust
 - DevSecOps pipelines with policy-as-code
 - Cloud-native threat detection and automated response
 - Kubernetes security and workload hardening
-- Observability, metrics, and SIEM-ready pipelines
+- Observability and SIEM-ready telemetry pipelines
 
 ---
 
@@ -48,80 +48,56 @@ I am comfortable working in **globally distributed teams** and structured engine
 - Azure Defender
 - GCP Security Command Center (SCC)
 - IBM Cloud Security & Compliance Center
-- Encryption lifecycle management:
-  - AWS KMS
-  - Azure Key Vault
-  - GCP KMS
-  - IBM Key Protect / Hyper Protect Crypto Services
+- Encryption lifecycle management (AWS KMS, Azure Key Vault, GCP KMS, IBM Key Protect)
 
 ---
 
-### 🔐 Identity & Access Management (IAM)
+### 🔐 Identity & Access Management
 - RBAC / ABAC and IAM boundary design
 - MFA enforcement
 - Privilege hardening and continuous verification
-- Least-privilege access across cloud platforms
+- Least-privilege access models
 
 ---
 
-### ⚙️ DevSecOps, CI/CD & Automation
+### ⚙️ DevSecOps & Automation
 - Terraform with policy-as-code
 - Secure CI/CD pipelines (GitHub Actions)
-- Infrastructure and container scanning (Trivy, tfsec, Grype)
+- Infrastructure & container scanning (Trivy, tfsec, Grype)
 - Kubernetes governance and workload security
 - Automated compliance validation
 
 ---
 
-## 🚀 Projects
+## 🚀 Selected Projects
 
 ### 🔥 TriCloudSentinel — Multi-Cloud Security Detection Platform
-AI-assisted, multi-agent system for detecting and processing security signals across **AWS, Azure, GCP, and IBM Cloud**.
+AI-assisted system for processing and correlating security signals across **AWS, Azure, GCP, and IBM Cloud**.
 
-**Purpose**
-- Demonstrate a practical and reproducible architecture for centralized multi-cloud security detection.
+**Engineering Goals**
+- Centralized security signal processing
+- Reproducible local-first architecture
+- Monitoring- and SIEM-ready design
 
-**Features**
-- Distributed Python-based detection agents
+**Key Capabilities**
+- Distributed Python detection agents
 - Sliding-window ensemble scoring
 - Automated remediation logic
-- `/metrics` endpoint for Prometheus
-- Containerized architecture (Docker Compose)
-
-**Outcome**
-- Unified security signal processing across multiple cloud providers
-- Monitoring-ready design suitable for SIEM integration
-- Local-first development with production-oriented architecture
+- Prometheus-compatible metrics endpoint
+- Containerized deployment (Docker Compose)
 
 🔗 https://github.com/SkySentinel-AI/TriCloudSentinel-demo
 
 ---
 
 ### 🛡️ fail2ban-aws — Automated Cloud IP Blocking
-Lightweight automation for detecting suspicious log events and blocking malicious IPs using AWS Security Groups.
+Automation for detecting suspicious log activity and blocking malicious IPs using AWS Security Groups.
 
-**Highlights**
 - CloudWatch log monitoring
 - Automated IP blocking
 - CI/CD-integrated deployment
 
 🔗 https://github.com/SkySentinel-AI/fail2ban-aws-project
-
----
-
-## 📊 GitHub Activity & Metrics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SkySentinel-AI&show_icons=true&theme=tokyonight&hide_border=true" width="55%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkySentinel-AI&layout=compact&theme=tokyonight&hide_border=true" width="40%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SkySentinel-AI&theme=react-dark&hide_border=true&area=true" width="95%"/>
-</p>
 
 ---
 
@@ -131,8 +107,122 @@ Lightweight automation for detecting suspicious log events and blocking maliciou
 docker compose up -d --force-recreate --build
 docker compose ps
 
-curl http://localhost:9000/health     # health check
-curl http://localhost:9000/metrics    # Prometheus metrics
+curl http://localhost:9000/health
+curl http://localhost:9000/metrics
+
+
+---
+<!-- ================================================= -->
+<!--  Global Cloud / DevSecOps Engineer – Profile README -->
+<!--  Optimized for Japan 🇯🇵 & Germany 🇩🇪 -->
+<!-- ================================================= -->
+
+<h1 align="center">Cloud / DevSecOps Engineer</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/IBM_Cloud-1261FE?style=for-the-badge&logo=ibmcloud&logoColor=white"/>
+</p>
+
+<p align="center">
+  <i>Security is designed into the architecture — not added later.</i>
+</p>
+
+---
+
+## 👤 About Me
+
+Cloud / DevSecOps Engineer experienced in designing **secure, scalable, and automated cloud platforms** across **AWS, Azure, GCP, and IBM Cloud**.
+
+My focus is on **security-by-design**, infrastructure reliability, and automation using **infrastructure as code** and **CI/CD pipelines**.  
+I prioritize **clarity, documentation, and long-term maintainability** over short-term complexity.
+
+I work comfortably in **globally distributed, structured engineering teams** and value stable systems, reviews, and continuous improvement.
+
+---
+
+## 🎯 Engineering Focus
+
+- Multi-cloud infrastructure architecture
+- Identity & access management (IAM) and Zero Trust
+- DevSecOps pipelines with policy-as-code
+- Cloud-native threat detection and automated response
+- Kubernetes security and workload hardening
+- Observability and SIEM-ready telemetry pipelines
+
+---
+
+## 🧠 Core Engineering Domains
+
+### ☁️ Cloud Infrastructure & Security
+- VPC / VNet / IBM VPC design, private endpoints, zero-trust routing
+- AWS Security Hub & GuardDuty
+- Azure Defender
+- GCP Security Command Center (SCC)
+- IBM Cloud Security & Compliance Center
+- Encryption lifecycle management (AWS KMS, Azure Key Vault, GCP KMS, IBM Key Protect)
+
+---
+
+### 🔐 Identity & Access Management
+- RBAC / ABAC and IAM boundary design
+- MFA enforcement
+- Privilege hardening and continuous verification
+- Least-privilege access models
+
+---
+
+### ⚙️ DevSecOps & Automation
+- Terraform with policy-as-code
+- Secure CI/CD pipelines (GitHub Actions)
+- Infrastructure & container scanning (Trivy, tfsec, Grype)
+- Kubernetes governance and workload security
+- Automated compliance validation
+
+---
+
+## 🚀 Selected Projects
+
+### 🔥 TriCloudSentinel — Multi-Cloud Security Detection Platform
+AI-assisted system for processing and correlating security signals across **AWS, Azure, GCP, and IBM Cloud**.
+
+**Engineering Goals**
+- Centralized security signal processing
+- Reproducible local-first architecture
+- Monitoring- and SIEM-ready design
+
+**Key Capabilities**
+- Distributed Python detection agents
+- Sliding-window ensemble scoring
+- Automated remediation logic
+- Prometheus-compatible metrics endpoint
+- Containerized deployment (Docker Compose)
+
+🔗 https://github.com/SkySentinel-AI/TriCloudSentinel-demo
+
+---
+
+### 🛡️ fail2ban-aws — Automated Cloud IP Blocking
+Automation for detecting suspicious log activity and blocking malicious IPs using AWS Security Groups.
+
+- CloudWatch log monitoring
+- Automated IP blocking
+- CI/CD-integrated deployment
+
+🔗 https://github.com/SkySentinel-AI/fail2ban-aws-project
+
+---
+
+## ▶️ Run Locally (TriCloudSentinel)
+
+```bash
+docker compose up -d --force-recreate --build
+docker compose ps
+
+curl http://localhost:9000/health
+curl http://localhost:9000/metrics
 
 
 ---
