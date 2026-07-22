@@ -1,108 +1,208 @@
 <div align="center">
-  <h1>Rishikesh Ajay Jogdand</h1>
-  <p><b>Cloud & DevSecOps Engineer · Multi-Cloud Security · Platform Engineering</b></p>
 
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
-  <img src="https://img.shields.io/badge/IBM_Cloud-1261FE?style=for-the-badge&logo=ibmcloud&logoColor=white"/>
+# 👋 Hi, I'm Rishikesh Jogdand
 
-  <p><i>Designing secure, predictable, and auditable cloud platforms through automation and policy-driven engineering.</i></p>
+### ☁️ Cloud Engineer • 🤖 Generative AI • 🔐 DevSecOps • 🚀 AI Infrastructure
+
+<img src="assets/banner.png" width="100%" alt="GitHub Banner"/>
+
+### Building secure cloud platforms and intelligent AI applications.
+
+📍 Pune, India 🇮🇳  
+🌍 Open to Remote • Hybrid • On-site Opportunities
+
+<p>
+
+<a href="https://linkedin.com/in/j-r-306ba635b">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="mailto:jogdandrishikesh05@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://github.com/SkySentinel-AI">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://x.com/RishiAIXCloud">
+<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x"/>
+</a>
+
+</p>
+
 </div>
 
 ---
 
-## 👤 Professional Summary
+# 🚀 About Me
 
-Cloud / DevSecOps Engineer with experience in multi-cloud security architecture, infrastructure automation, and platform reliability engineering.
+I'm a Cloud Engineer passionate about building secure cloud infrastructure and practical AI-powered applications.
 
-I focus on building secure-by-default cloud environments that emphasize least privilege, operational clarity, and long-term maintainability. My work prioritizes reducing operational risk through automation, policy enforcement, and clear system design.
+My engineering experience includes:
 
----
+- ☁️ Cloud Infrastructure
+- ⚙️ Infrastructure as Code
+- 🔐 DevSecOps & Cloud Security
+- 🤖 Generative AI Applications
+- 🚀 Platform Engineering
 
-## 🛠 Technical Skills
+Recently, I've expanded into Generative AI by building projects using LangChain, Retrieval-Augmented Generation (RAG), Gemini API, Hugging Face, and Streamlit.
 
-| Area | Technologies |
-|----|----|
-| **Cloud Platforms** | AWS · Azure · GCP · IBM Cloud |
-| **Identity & Security** | IAM · GuardDuty · Defender for Cloud · SCC · Sentinel · Key Protect |
-| **Infrastructure as Code** | Terraform · OpenTofu · CloudFormation · Bicep |
-| **CI/CD & DevSecOps** | GitHub Actions · Trivy · Checkov · tfsec · Grype |
-| **Containers & Orchestration** | Docker · Kubernetes · Helm · Kyverno · Cilium |
-| **Observability** | Prometheus · Cloud Monitoring · Log-based Alerts |
+I enjoy solving engineering problems through automation, security, and AI-driven solutions that are scalable, maintainable, and production-focused.
 
 ---
 
-## 🧩 Engineering Responsibilities
+# 🛠 Tech Stack
 
-- Design and maintain secure multi-cloud architectures with clear trust boundaries
-- Provision and manage infrastructure using Infrastructure as Code
-- Integrate security checks and policy enforcement into CI/CD pipelines
-- Implement least-privilege access controls and network isolation
-- Automate operational and security workflows to reduce manual effort
-- Maintain documentation for architecture, security, and operations
+## ☁️ Cloud
 
----
+<p>
 
-## 🔍 Engineering Practices
+<img src="https://skillicons.dev/icons?i=aws,gcp,azure"/>
 
-- Version-controlled infrastructure and configuration
-- Peer-reviewed changes through pull requests
-- Repeatable and auditable deployments
-- Monitoring, alerting, and centralized logging
-- Clear documentation of limitations and known risks
+</p>
 
 ---
 
-## 🎓 Certifications
+## ⚙️ DevOps & Platform Engineering
 
-- **Introduction to Security Principles in Cloud Computing**  
-  *Google Cloud Training (Coursera)*
+<p>
 
-- **Generative AI: Beyond the Chatbot**  
-  *Google Cloud Training (Coursera)*
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,githubactions,git,linux,bash"/>
 
----
-
-## 🚀 Selected Projects
-
-### 🛡️ TriCloudSentinel — Multi-Cloud Security Aggregation Platform
-
-A security aggregation system designed to centralize and normalize security findings across multiple cloud providers.
-
-- Unified ingestion of security alerts from AWS, Azure, GCP, and IBM Cloud
-- Normalization and prioritization of findings to reduce alert fatigue
-- Containerized services with metrics-driven monitoring
-
-**Technologies:** Python · Docker · Prometheus · Multi-Cloud Security APIs
+</p>
 
 ---
 
-### ⛓️ fail2ban-aws — Automated Incident Response
+## 🤖 Generative AI
 
-An automated remediation system to reduce response time to brute-force attacks on cloud workloads.
-
-- Detection of suspicious activity using CloudWatch log patterns
-- Automated updates to AWS Security Groups via serverless workflows
-- Auditable and repeatable enforcement of IP blocking policies
+- LangChain
+- Gemini API
+- Retrieval-Augmented Generation (RAG)
+- Hugging Face Transformers
+- FAISS Vector Database
+- Prompt Engineering
+- Streamlit
 
 ---
 
-## 📫 Contact
+## 💻 Programming
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=python"/>
+
+</p>
+
+---
+
+## 🔐 Security
+
+- IAM
+- AWS GuardDuty
+- Trivy
+- Checkov
+- tfsec
+- SonarQube
+- Security Automation
+
+---
+
+# 🚀 Featured Projects
+
+| Project | Description |
+|----------|-------------|
+| 🛡️ **TriCloudSentinel** | Multi-cloud security monitoring platform |
+| ☁️ **Fail2Ban AWS** | Automated cloud incident response |
+| 🤖 **GenAI Learning Lab** | Prompt Engineering, LangChain, Gemini, RAG & Hugging Face projects |
+| 📄 **RAG PDF Chatbot** | AI-powered document assistant using LangChain + FAISS |
+| 🎉 **AI Greeting Card** | Streamlit application powered by Gemini |
+
+---
+
+# 🏆 Certifications
+
+### Google Cloud
+
+- Introduction to Security Principles in Cloud Computing
+- Generative AI: Beyond the Chatbot
+
+### ExcelR
+
+- Generative AI + Prompt Engineering + ChatGPT *(Completed: 17 July 2026)*
+
+---
+
+# 🌱 Currently Building
+
+- 🤖 AI Agents
+- 🧠 LangGraph
+- 📄 Enterprise RAG Applications
+- 🚀 LLMOps
+- ☁️ AI Infrastructure
+- 🔐 AI Security
+
+---
+
+# 💡 Engineering Philosophy
+
+> Secure by Design
+
+> Automate Everything
+
+> Build for Reliability
+
+> Keep Learning
+
+> Ship Practical Solutions
+
+---
+
+# 📈 GitHub Journey
+
+```text
+Cloud Engineering
+        │
+        ▼
+DevSecOps
+        │
+        ▼
+Generative AI
+        │
+        ▼
+Enterprise RAG
+        │
+        ▼
+AI Infrastructure
+```
+
+---
+
+# 🤝 Let's Connect
+
+<p align="center">
+
+<a href="https://linkedin.com/in/j-r-306ba635b">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="mailto:jogdandrishikesh05@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://x.com/RishiAIXCloud">
+<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x"/>
+</a>
+
+</p>
+
+---
 
 <div align="center">
-  <a href="https://linkedin.com/in/j-r-306ba635b">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge"/>
-  </a>
-  &nbsp;
-  <a href="mailto:jogdandrishikesh05@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge"/>
-  </a>
-  &nbsp;
-  <a href="https://x.com/RishiAIXCloud">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge"/>
-  </a>
 
-  <br><br>
-  <b>Open to Global Remote and On-Site Engineering Roles</b>
+## ⭐ Building Secure Cloud Platforms & Intelligent AI Applications ⭐
+
+*"Learn continuously. Build thoughtfully. Deliver reliably."*
+
 </div>
