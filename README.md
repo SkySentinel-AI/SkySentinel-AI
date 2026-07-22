@@ -2,19 +2,18 @@
 
 # 👋 Hi, I'm Rishikesh Jogdand
 
-### ☁️ Cloud Engineer • 🤖 Generative AI • 🔐 DevSecOps • 🚀 AI Infrastructure
-
-<img src="assets/banner.png" width="100%" alt="GitHub Banner"/>
+## ☁️ Cloud Engineer • 🤖 Generative AI • 🔐 DevSecOps • 🚀 AI Infrastructure
 
 ### Building secure cloud platforms and intelligent AI applications.
 
-📍 Pune, India 🇮🇳  
+📍 Pune, Maharashtra, India 🇮🇳
+
 🌍 Open to Remote • Hybrid • On-site Opportunities
 
-<p>
+<br>
 
 <a href="https://linkedin.com/in/j-r-306ba635b">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="mailto:jogdandrishikesh05@gmail.com">
@@ -29,48 +28,34 @@
 <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x"/>
 </a>
 
-</p>
-
 </div>
 
 ---
 
 # 🚀 About Me
 
-I'm a Cloud Engineer passionate about building secure cloud infrastructure and practical AI-powered applications.
+I'm a **Cloud Engineer** passionate about designing secure cloud infrastructure and building practical **AI-powered applications**.
 
-My engineering experience includes:
+My experience spans **Cloud Engineering**, **Infrastructure as Code**, **DevSecOps**, **Cloud Security**, and **Platform Engineering**. Recently, I've been expanding into **Generative AI**, building applications with **LangChain**, **Retrieval-Augmented Generation (RAG)**, **Gemini API**, **FAISS**, **Hugging Face**, and **Streamlit**.
 
-- ☁️ Cloud Infrastructure
-- ⚙️ Infrastructure as Code
-- 🔐 DevSecOps & Cloud Security
-- 🤖 Generative AI Applications
-- 🚀 Platform Engineering
-
-Recently, I've expanded into Generative AI by building projects using LangChain, Retrieval-Augmented Generation (RAG), Gemini API, Hugging Face, and Streamlit.
-
-I enjoy solving engineering problems through automation, security, and AI-driven solutions that are scalable, maintainable, and production-focused.
+I enjoy solving real-world engineering problems through automation, security, and AI-driven solutions that are scalable, maintainable, and production-ready.
 
 ---
 
 # 🛠 Tech Stack
 
-## ☁️ Cloud
+## ☁️ Cloud Platforms
 
-<p>
-
+<p align="left">
 <img src="https://skillicons.dev/icons?i=aws,gcp,azure"/>
-
 </p>
 
 ---
 
 ## ⚙️ DevOps & Platform Engineering
 
-<p>
-
+<p align="left">
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,githubactions,git,linux,bash"/>
-
 </p>
 
 ---
@@ -89,10 +74,8 @@ I enjoy solving engineering problems through automation, security, and AI-driven
 
 ## 💻 Programming
 
-<p>
-
+<p align="left">
 <img src="https://skillicons.dev/icons?i=python"/>
-
 </p>
 
 ---
@@ -105,19 +88,18 @@ I enjoy solving engineering problems through automation, security, and AI-driven
 - Checkov
 - tfsec
 - SonarQube
-- Security Automation
 
 ---
 
 # 🚀 Featured Projects
 
 | Project | Description |
-|----------|-------------|
-| 🛡️ **TriCloudSentinel** | Multi-cloud security monitoring platform |
-| ☁️ **Fail2Ban AWS** | Automated cloud incident response |
-| 🤖 **GenAI Learning Lab** | Prompt Engineering, LangChain, Gemini, RAG & Hugging Face projects |
-| 📄 **RAG PDF Chatbot** | AI-powered document assistant using LangChain + FAISS |
-| 🎉 **AI Greeting Card** | Streamlit application powered by Gemini |
+|---------|-------------|
+| 🛡️ **TriCloudSentinel** | Multi-cloud security monitoring platform across AWS, Azure, GCP & IBM Cloud. |
+| ☁️ **Fail2Ban AWS** | Automated incident response using AWS Lambda, CloudWatch & Terraform. |
+| 🤖 **GenAI Learning Lab** | Hands-on projects covering Prompt Engineering, LangChain, Gemini API, Hugging Face and RAG. |
+| 📄 **RAG PDF Chatbot** | AI-powered document assistant built using LangChain, FAISS and Gemini. |
+| 🎉 **AI Greeting Card** | Streamlit application powered by Gemini to generate personalized greeting cards. |
 
 ---
 
@@ -130,36 +112,39 @@ I enjoy solving engineering problems through automation, security, and AI-driven
 
 ### ExcelR
 
-- Generative AI + Prompt Engineering + ChatGPT *(Completed: 17 July 2026)*
+- **Generative AI + Prompt Engineering + ChatGPT**
+  - 📅 Completed: **17 July 2026**
+  - 🏅 Certificate of Excellence
 
 ---
 
-# 🌱 Currently Building
+# 🌱 Currently Exploring
 
-- 🤖 AI Agents
-- 🧠 LangGraph
-- 📄 Enterprise RAG Applications
-- 🚀 LLMOps
-- ☁️ AI Infrastructure
-- 🔐 AI Security
+- AI Agents
+- LangGraph
+- Model Context Protocol (MCP)
+- LLMOps
+- Enterprise RAG
+- AI Infrastructure
+- AI Security
 
 ---
 
 # 💡 Engineering Philosophy
 
-> Secure by Design
+> 🔐 Secure by Design
 
-> Automate Everything
+> ⚙️ Automate Everything
 
-> Build for Reliability
+> 📊 Build for Reliability
 
-> Keep Learning
+> 🚀 Keep Learning
 
-> Ship Practical Solutions
+> 🤝 Deliver Practical Solutions
 
 ---
 
-# 📈 GitHub Journey
+# 📈 Career Journey
 
 ```text
 Cloud Engineering
@@ -191,6 +176,10 @@ AI Infrastructure
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
+<a href="https://github.com/SkySentinel-AI">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
 <a href="https://x.com/RishiAIXCloud">
 <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x"/>
 </a>
@@ -201,8 +190,8 @@ AI Infrastructure
 
 <div align="center">
 
-## ⭐ Building Secure Cloud Platforms & Intelligent AI Applications ⭐
+# ⭐ Building Secure Cloud Platforms & Intelligent AI Applications
 
-*"Learn continuously. Build thoughtfully. Deliver reliably."*
+### *Learn continuously • Build thoughtfully • Deliver reliably*
 
 </div>
